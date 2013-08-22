@@ -1,80 +1,100 @@
 \documentclass{report}
 \usepackage[left=.68in,right=.68in,bottom=.68in,top=.68in]{geometry}
+\usepackage{tikz}
+\usepackage{graphicx}
+\usepackage[absolute,overlay]{textpos}
+
+\newcommand{\cut}{\begin{center} \line(1,0){510} \end{center}}
 
 \begin{document}
 \pagestyle{empty}
 \setlength\parindent{0pt}
 
 \begin{center}
-\textbf{Eric Crosson} \\
-3600 N. Hills Dr. Apt 119 Austin, TX 78731 \\
-(210) 396 - 3142 / eric.s.crosson@utexas.edu / ericscrosson.wordpress.com\\
+  \textbf{Eric Crosson} \\
+  3600 N. Hills Dr. Apt 119 Austin, TX 78731 \\
+  (512) 222 - 9052 / esc@ericcrosson.com / ericscrosson.wordpress.com\\
 \end{center}
 
-Bachelor of Science in Electrical and Computer Engineering at University of Texas - 2015. GPA of 3.1 \\
-Interested in software development in linux, robotics, AI/machine
-learning, efficiency \\
+Bachelor of Science in Electrical and Computer Engineering at
+University of Texas - 2015. GPA of 3.0 \\
+Interested in software development in GNU/Linux, free software, robotics,
+AI/machine learning, LISP, efficiency \\
 
 \textbf{Classes in}
 creating a microprocessor, embedded systems, circuit theory,
 programming in C, differential equations, linear algebra, systems/signals, software design
 
-\begin{center}
-\line(1,0){510}
-\end{center}
+\cut{}
 
 \textbf{Extra Curricular Activities} \\
-Founded FIRST Robotics Competition (FRC) team 3529 \\
-Mentored a FIRST Technical Challenge (FTC), F. Lego League (FLL) and
-Jr. FLL team from 2009-2012 \\
+Founded FIRST Robotics Competition (FRC) team 3529, mentored
+FTC, FLL, Jr. FLL teams from 2009-2012 \\
 
 \textbf{Computer Science UIL / Independent Study} \\
-Founded the competitive University Interscholastic League computer science team in high school, where I educated my team in essential concepts for Java/javascript, C/C++, Perl, HTML. Also knowledgeable in Emacs/Common Lisp, Octave, bash scripting and asm/C for TI-MSP430, Freescale 9S12, and ARM Cortex M3 \\
+Founded the competitive University Interscholastic League computer
+science team in high school, where I educated my team in essential
+concepts for Java, C/C++, Perl, HTML. Also knowledgeable in
+Emacs/Common LISP, Ruby, Octave, BASH and assembly/C for
+more than a couple microcontrollers \\
 
-\textbf{Arch Linux afficionado} \\
-During my free time I keep multiple servers in tip top shape with my favorite minimalist linux distribution. Keeping systems efficient, small, and simple is a passion manifested in Arch. I've also been getting really into Emacs lately.
+\textbf{GNU/Linux afficionado, Emacs appreciator} \\
+During my free time I keep multiple servers in tip top shape with my
+favorite minimalist GNU/Linux distribution. Keeping systems
+efficient, small, and simple is a passion manifested in Arch. I'm also
+over two years deep into Emacs.
 
-\begin{center}
-\line(1,0){510}
-\end{center}
+\cut{}
 
 \textbf{Work Experience} \\
+\textbf{Design Verification Intern at Centaur Technology (2013)} \\
+Modified bochs and a processor model to produce a cycle-accurate
+simulation of presilicon hardware capable of running automated
+regression tests and real-world use cases (ie: booting common
+operating systems) \\
+
 \textbf{Software Engineer at ShoreTel (2012)} \\
-As a part of the IP Phone Group, I have developed a VNC client to help Customer Assistance and Administrators manage large groups of phones from afar all at once. After the VNC Tool I helped develop solutions for efficient unit testing, and have contributed to bugfixes and firmware development \\
+Developed a VNC client for the IP Phone team, allowing
+administrators to manage groups of phones remotely \\
+Designed and implemented architecture for efficient unit testing and
+contributed bug-fixes/firmware development \\
 
 \textbf{Tutoring} \\
-Tutored high school and college students from different schools in computer science, physics, and mathematics \\
+Tutored high school and college students from different schools in
+computer science, physics, and mathematics \\
 
 \textbf{Bookkeeper for the International Brotherhood of Electrical Workers} \\
-Oversaw inventory of the textbooks in stock, and worked with the apprentices
-Read through textbooks, heard lectures from the electricians and systems technicians
+Oversaw inventory of the textbooks in stock, and worked with the
+apprentices \\
+Read through textbooks, heard lectures from the electricians and
+systems technicians
 
-\begin{center}
-\line(1,0){510}
-\end{center}
+\line(1,0){455}
+\begin{tikzpicture}[remember picture,overlay]
+  \node[anchor=south west,inner sep=0pt] at (.5cm,-1cm) {
+     \includegraphics[scale=.33]{qr-gpg}
+  };
+\end{tikzpicture}
+
 
 \textbf{Self-motivated projects} \\
-http://www.github.com/EricCrosson \\
-Installed solar panels into the back of an iPhone case to provide clean energy \\
-Mounted kinetic-powered EL wire on a bicycle and long board \\
-Arduino/Launchpad projects using LED strips and IR signals, converting wavelength to RGB with ADC feedback \\
-ATTiny 13a collar for my dog Luna, Programming contests in Java, C, C++, and z80 asm \\
-Eye-gaze projection software, cell-tracking image processing, and much more \\
+Contributions to free sotware - http://www.github.com/EricCrosson \\
+Solar-powered smartphone case, kinetic-powered EL wire on a bicycle
+and longboard \\
+Arduino/Launchpad projects using LED strips and IR signals, converting
+wavelength to RGB with ADC feedback \\
+ATTiny collar for my dog Luna, pgrogramming contests in Java, C, C++,
+and z80 asm \\
+Eye-gaze projection software, cell-tracking image processing, image
+background extraction, and much more \\
 
 \textbf{Active in online classes} \\
-Autodidactic, seeking knowledge from services including OpenCourseware, Coursera, and edx. Classes taken include \\
-machine learning, neural networks, developing compilers, web intelligence/big data, algorithms II, cryptography
+Autodidactic, seeking knowledge from services including
+OpenCourseware, Coursera, and edx. Classes taken include \\
+machine learning, neural networks, developing compilers, web
+intelligence/big data, algorithms II, cryptography
 
-\begin{center}
-\line(1,0){510}
-\end{center}
-
-\textbf{Summer Camp Robotics Mentor} \\
-Volunteered 90 hours this summer to run a one week robotics camp for 9-13 year old students, requiring students to autonomously navigate an obstacle course with LEGO Mind Storm robots
-
-\begin{center}
-\line(1,0){510}
-\end{center}
+\cut{}
 
 Commended as a 2011 National Merit Scholar; 4.3 GPA, graduated Summa Cum-Laude \\
 Top 5\% (33/654) of graduating high school class
