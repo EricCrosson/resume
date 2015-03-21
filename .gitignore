@@ -25,3 +25,4 @@
 *.fls
 *.pdf
 /auto/
+/build/
