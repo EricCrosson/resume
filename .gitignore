@@ -26,3 +26,4 @@
 *.pdf
 /auto/
 /build/
+/doc/auto/resume.el
