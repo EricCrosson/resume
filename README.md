@@ -27,7 +27,7 @@ To build this project, follow normal cmake rules (outlined below).
 - [help-extras](https://github.com/EricCrosson/help-extras)
 
 #### Packages to publish
-- [big-fringe](https://github.com/EricCrosson/big-fringe)
+- [big-fringe](https://github.com/EricCrosson/big-fringe) [![Build Status](https://travis-ci.org/EricCrosson/big-fringe.svg)](https://travis-ci.org/EricCrosson/big-fringe)
 - [hidden-mode-line](https://github.com/EricCrosson/hidden-mode-line)
 - [clean-mode-line](https://github.com/EricCrosson/clean-mode-line)
 - [color-theme-stack](https://github.com/EricCrosson/color-theme-stack)
