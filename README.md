@@ -13,7 +13,7 @@ To build this project, follow normal cmake rules (outlined below).
 
 ### Emacs MELPA Packages
 - [bury-successful-compilation](https://github.com/EricCrosson/bury-successful-compilation) [![MELPA](http://melpa.org/packages/bury-successful-compilation-badge.svg)](http://melpa.org/#/bury-successful-compilation)
-- [mode-line-in-header](https://github.com/EricCrosson/mode-line-in-header) ![Build status](https://travis-ci.org/EricCrosson/mode-line-in-header.svg) [![MELPA](http://melpa.org/packages/mode-line-in-header-badge.svg)](http://melpa.org/#/mode-line-in-header)
+- [mode-line-in-header](https://github.com/EricCrosson/mode-line-in-header) ![Travis CI](https://travis-ci.org/EricCrosson/mode-line-in-header.svg) [![MELPA](http://melpa.org/packages/mode-line-in-header-badge.svg)](http://melpa.org/#/mode-line-in-header)
 - [unkillable-scratch](https://github.com/EricCrosson/unkillable-scratch) ![Travis CI](https://travis-ci.org/EricCrosson/unkillable-scratch.svg?branch=master) [![MELPA](http://melpa.org/packages/unkillable-scratch-badge.svg)](http://melpa.org/#/unkillable-scratch)
 
 ### Non-published Emacs Packages
@@ -21,7 +21,7 @@ To build this project, follow normal cmake rules (outlined below).
 - [tagsgen](https://github.com/EricCrosson/tagsgen)
 - [dedicated-buffer](https://github.com/EricCrosson/dedicated-buffer)
 - [unselectable-buffer](https://github.com/EricCrosson/unselectable-buffer)
-- [dedicated-yank](https://github.com/EricCrosson/dedicated-yank)
+- [displaced-yank](https://github.com/EricCrosson/displaced-yank) ![Travis CI](https://travis-ci.org/EricCrosson/displaced-yank.svg)
 - [esc-mode](https://github.com/EricCrosson/esc-mode)
 - [springboard](https://github.com/EricCrosson/springboard)
 - [help-extras](https://github.com/EricCrosson/help-extras)
