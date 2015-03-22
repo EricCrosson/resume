@@ -17,7 +17,7 @@ To build this project, follow normal cmake rules (outlined below).
 - [unkillable-scratch](https://github.com/EricCrosson/unkillable-scratch) ![Travis CI](https://travis-ci.org/EricCrosson/unkillable-scratch.svg?branch=master) [![MELPA](http://melpa.org/packages/unkillable-scratch-badge.svg)](http://melpa.org/#/unkillable-scratch)
 
 ### Non-published Emacs Packages
-- [snow](https://github.com/EricCrosson/snow)
+- [snow](https://github.com/EricCrosson/snow) ![Travis CI](https://travis-ci.org/EricCrosson/snow.svg)
 - [tagsgen](https://github.com/EricCrosson/tagsgen)
 - [dedicated-buffer](https://github.com/EricCrosson/dedicated-buffer)
 - [unselectable-buffer](https://github.com/EricCrosson/unselectable-buffer)
