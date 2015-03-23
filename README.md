@@ -25,6 +25,7 @@ To build this project, follow normal cmake rules (outlined below).
 - [esc-mode](https://github.com/EricCrosson/esc-mode)
 - [springboard](https://github.com/EricCrosson/springboard)
 - [help-extras](https://github.com/EricCrosson/help-extras)
+- [mojo](https://github.com/EricCrosson/mojo) [![Build Status](https://travis-ci.org/EricCrosson/mojo.svg)](https://travis-ci.org/EricCrosson/mojo)
 
 #### Packages to publish
 - [hide-mode-line](https://github.com/EricCrosson/hide-mode-line) [![Build Status](https://travis-ci.org/EricCrosson/hide-mode-line.svg?branch=master)](https://travis-ci.org/EricCrosson/hide-mode-line)
