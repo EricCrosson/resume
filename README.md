@@ -2,10 +2,12 @@
 
 To build this project, follow normal cmake rules (outlined below).
 
-1. clone repository
-2. mkdir build in top level of repo
-3. in build dir, run `cmake ..`
-4. `make`
+```sh
+git clone https://github.com/EricCrosson/resume.git  # clone the repository
+cd resume && mkdir build                             # make build dir
+cd build && cmake ..                                 # cmake in build dir
+make                                                 # make. docs are in doc-bin 
+```
 
 ---
 
