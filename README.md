@@ -26,13 +26,14 @@ make                                                 # make. docs are in doc-bin
 - [displaced-yank](https://github.com/EricCrosson/displaced-yank) ![Travis CI](https://travis-ci.org/EricCrosson/displaced-yank.svg)
 - [esc-mode](https://github.com/EricCrosson/esc-mode)
 - [springboard](https://github.com/EricCrosson/springboard)
-- [help-extras](https://github.com/EricCrosson/help-extras)
+- [help-extras](https://github.com/EricCrosson/help-extras) [![Build Status](https://travis-ci.org/EricCrosson/help-extras.svg)](https://travis-ci.org/EricCrosson/help-extras)
 - [mojo](https://github.com/EricCrosson/mojo) [![Build Status](https://travis-ci.org/EricCrosson/mojo.svg)](https://travis-ci.org/EricCrosson/mojo)
 
 #### Packages to publish
 - [hide-mode-line](https://github.com/EricCrosson/hide-mode-line) [![Build Status](https://travis-ci.org/EricCrosson/hide-mode-line.svg?branch=master)](https://travis-ci.org/EricCrosson/hide-mode-line)
 - [clean-mode-line](https://github.com/EricCrosson/clean-mode-line)
 - [color-theme-stack](https://github.com/EricCrosson/color-theme-stack)
+- [help-find-org](https://github.com/EricCrosson/help-find-org) [![Build Status](https://travis-ci.org/EricCrosson/help-find-org.svg)](https://travis-ci.org/EricCrosson/help-find-org)
 
 ### Web sites
 - [ericcrosson.com](https://github.com/EricCrosson/ericcrosson.github.io)
