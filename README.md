@@ -20,16 +20,10 @@ make                                                 # make. docs are in doc-bin
 
 ### Non-published Emacs Packages
 - [snow](https://github.com/EricCrosson/snow) ![Travis CI](https://travis-ci.org/EricCrosson/snow.svg)
-- [tagsgen](https://github.com/EricCrosson/tagsgen)
 - [dedicated-buffer](https://github.com/EricCrosson/dedicated-buffer)
 - [unselectable-buffer](https://github.com/EricCrosson/unselectable-buffer)
 - [displaced-yank](https://github.com/EricCrosson/displaced-yank) ![Travis CI](https://travis-ci.org/EricCrosson/displaced-yank.svg)
-- [esc-mode](https://github.com/EricCrosson/esc-mode)
-- [springboard](https://github.com/EricCrosson/springboard)
 - [help-extras](https://github.com/EricCrosson/help-extras) [![Build Status](https://travis-ci.org/EricCrosson/help-extras.svg)](https://travis-ci.org/EricCrosson/help-extras)
-- [mojo](https://github.com/EricCrosson/mojo) [![Build Status](https://travis-ci.org/EricCrosson/mojo.svg)](https://travis-ci.org/EricCrosson/mojo)
-- [hide-mode-line](https://github.com/EricCrosson/hide-mode-line) [![Build Status](https://travis-ci.org/EricCrosson/hide-mode-line.svg?branch=master)](https://travis-ci.org/EricCrosson/hide-mode-line)
-- [clean-mode-line](https://github.com/EricCrosson/clean-mode-line)
 
 #### Packages to publish
 - [color-theme-stack](https://github.com/EricCrosson/color-theme-stack)
