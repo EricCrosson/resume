@@ -11,16 +11,15 @@ make                                                 # make. docs are in doc-bin
 
 ---
 
-## Notable Github Projects
+## Notable Github Projects
 
 ### Emacs MELPA Packages
 - [bury-successful-compilation](https://github.com/EricCrosson/bury-successful-compilation) [![MELPA](http://melpa.org/packages/bury-successful-compilation-badge.svg)](http://melpa.org/#/bury-successful-compilation)
 - [mode-line-in-header](https://github.com/EricCrosson/mode-line-in-header) ![Travis CI](https://travis-ci.org/EricCrosson/mode-line-in-header.svg) [![MELPA](http://melpa.org/packages/mode-line-in-header-badge.svg)](http://melpa.org/#/mode-line-in-header)
 - [unkillable-scratch](https://github.com/EricCrosson/unkillable-scratch) ![Travis CI](https://travis-ci.org/EricCrosson/unkillable-scratch.svg?branch=master) [![MELPA](http://melpa.org/packages/unkillable-scratch-badge.svg)](http://melpa.org/#/unkillable-scratch)
 
-### Non-published Emacs Packages
+### Unpublished Emacs Packages
 - [snow](https://github.com/EricCrosson/snow) ![Travis CI](https://travis-ci.org/EricCrosson/snow.svg)
-- [dedicated-buffer](https://github.com/EricCrosson/dedicated-buffer)
 - [unselectable-buffer](https://github.com/EricCrosson/unselectable-buffer)
 - [displaced-yank](https://github.com/EricCrosson/displaced-yank) ![Travis CI](https://travis-ci.org/EricCrosson/displaced-yank.svg)
 - [help-extras](https://github.com/EricCrosson/help-extras) [![Build Status](https://travis-ci.org/EricCrosson/help-extras.svg)](https://travis-ci.org/EricCrosson/help-extras)
