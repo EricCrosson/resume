@@ -11,7 +11,7 @@ make                                                 # make. docs are in doc-bin
 
 ---
 
-## Notable Github Projects
+## Notable Github Projects
 
 ### Emacs MELPA Packages
 - [bury-successful-compilation](https://github.com/EricCrosson/bury-successful-compilation) [![MELPA](http://melpa.org/packages/bury-successful-compilation-badge.svg)](http://melpa.org/#/bury-successful-compilation)
