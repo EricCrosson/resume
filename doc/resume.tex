@@ -1,8 +1,10 @@
-
+% Written by Eric Crososn
+% 2013-09-03
 \documentclass{report}
-\usepackage[left=.68in,right=.68in,bottom=.60in,top=.60in]{geometry}
+\usepackage[left=.68in,right=.68in,bottom=.58in,top=.58in]{geometry}
 \usepackage{paracol}
 \usepackage{graphicx}
+\usepackage{enumitem}
 
 \newcommand{\cut}{\begin{center} \line(1,0){510} \end{center}}
 
@@ -12,69 +14,76 @@
 
 \begin{center}
   \textbf{Eric Crosson} \\
-  500 W. 33\textsuperscript{rd} Austin, TX 78705 \\
-  (512) 222 - 9052 / esc@ericcrosson.com / ericscrosson.wordpress.com
+  706 W. 34\textsuperscript{th} \#202 Austin, TX 78705 \\
+  (512) 222 - 9052 / esc@ericcrosson.com / www.ericcrosson.com
 \end{center}
 
-\textbf{Bachelor of Science} in Computer Engineering at
-University of Texas 2015. GPA of 2.8819
+\textbf{Bachelor of Science} in Computer Engineering at University of Texas
+2016
 
-\textbf{Interested in} abstractions via software development, GNU/Linux, free software, LISP, formal verification
+\vspace{1mm}
+
+\textbf{Recent classes} include embedded \& real time operating systems,
+embedded systems design, computer architecture
+
+\vspace{1mm}
+
+\textbf{Interested in} automation via software abstraction, GNU/Linux, free
+software, LISP, formal verification
 
 \cut{}
 
 \textbf{Extra Curricular Activities}
-\begin{itemize}
-  \renewcommand{\labelitemi}{$\circ$}
+\begin{itemize}[label=$\circ$]
 \item Self-study of functional programming with a strong emphasis on LISP, formal verification with ACL2
 \item Founded FIRST Robotics Competition (FRC) team 3529; mentored FTC, FLL, Jr. FLL teams (2009-2012)
 \end{itemize}
 
-\textbf{Computer Science UIL / Independent Study (High School)}
-\begin{itemize}
-  \renewcommand{\labelitemi}{$\circ$}
-\item Founded the competitive University Interscholastic League computer science team
-\item Taught essential concepts (and some minutiae) for C, C++, Java, Perl
-\end{itemize}
-
-\textbf{Hobbyist programmer, GNU/Linux afficionado, Emacs appreciator}
-\begin{itemize}
-  \renewcommand{\labelitemi}{$\circ$}
-\item Expertise in Emacs/Common LISP, Ruby, C/C++, Perl, BASH, asm for several microprocessors, Java
-\item Familiar with Octave, Python, HTML, JavaScript, VHDL, System Verilog, and documentation
-\item Manage multiple servers with minimalist GNU/Linux distributions (including personal mailserver)
+\textbf{Hobbyist programmer, GNU/Linux aficionado, Emacs appreciator}
+\begin{itemize}[label=$\circ$]
+\item Expertise in Emacs/Common LISP, git, Ruby, C/C++, Python, Perl, BASH, asm, Java
+\item Familiar with Octave, GNU Make, Haskell, HTML, Tcl, JavaScript, VHDL, System Verilog, documentation
 \end{itemize}
 
 \cut{}
 
 \textbf{Work Experience} \\
 \begin{paracol}{2}
-  \textbf{Intel- Post Silicon Validation (2013 - 2014)}
-  \begin{itemize}
-    \renewcommand{\labelitemi}{$\circ$}
-  \item Manage tests to determine quality of hardware
-  \item Implemented suite to cull unused supported packages
+  \textbf{ShoreTel- Software Engineer (2012 - 2013)}
+  \begin{itemize}[label=$\circ$]
+  \item Created IP Phone VNC client and unit test architecture/DSL for firmware
+    regression
   \end{itemize}
 
-  \textbf{ShoreTel- Software Engineer (2012 - 2013)}
-  \begin{itemize}
-    \renewcommand{\labelitemi}{$\circ$}
-  \item Designed and implemented an IP Phone VNC client and unit test architecture and DSL for firmware regression
+  \textbf{Intel- Post Silicon Validation (2013 - 2014)}
+  \begin{itemize}[label=$\circ$]
+  \item Managed tests to determine quality of hardware
+  \item Wrote, executed tests to stress hardware components
+  \end{itemize}
+  
+  \textbf{Intel- Pre Silicon Validation (2014 - 2015)}
+  \begin{itemize}[label=$\circ$]
+  \item Created analysis engine for internal signals of 3\textsuperscript{rd} party RTL
+  \item Integrated DHCP model tests against project RTL
   \end{itemize}
 
   \switchcolumn{}
   \textbf{Centaur Technology- Design Verification (2013)}
-  \begin{itemize}
-    \renewcommand{\labelitemi}{$\circ$}
-  \item Integrated processor simulation with virtual computer to allow
-    for cycle-accurate simulations of presilicon hardware on FPGAs
+  \begin{itemize}[label=$\circ$]
+  \item Integrated processor simulation with virtual computer to allow for
+    cycle-accurate simulations of presilicon hardware on FPGAs
   \end{itemize}
 
   \textbf{Centaur Technology- Design Verification (2014)}
-  \begin{itemize}
-    \renewcommand{\labelitemi}{$\circ$}
+  \begin{itemize}[label=$\circ$]
   \item \mbox{Created multicore PSE36/PAE paging test generators}
   \item Designed, implemented true LRU in System Verilog
+  \end{itemize}
+  
+  \textbf{IBM- Cloud Infrastructure Services (2015)}
+  \begin{itemize}[label=$\circ$]
+  \item Community work with OpenStack
+  \item Designed, maintained API controlling production accounts
   \end{itemize}
 \end{paracol}
 
@@ -83,17 +92,15 @@ University of Texas 2015. GPA of 2.8819
 \textbf{Self-motivated projects}
 \begin{paracol}{2}
 
-  \begin{itemize}
-    \renewcommand{\labelitemi}{$\circ$}
-  \item Contributions to free software and personal projects
-    http://www.github.com/EricCrosson
+  \begin{itemize}[label=$\circ$]
+  \item http://www.github.com/EricCrosson
   \item Programming contests in Java, C++ and z80 asm
   \item Wavelength to RGB conversion with ADC feedback
+  \item Founded competitive UIL comp-sci team (taught C++, Java, Perl)
   \end{itemize}
 
   \switchcolumn{}
-  \begin{itemize}
-    \renewcommand{\labelitemi}{$\circ$}
+  \begin{itemize}[label=$\circ$]
   \item Static image background extraction
   \item Eye-gaze projection software
   \item Cell-tracking image processing
@@ -102,14 +109,14 @@ University of Texas 2015. GPA of 2.8819
 \end{paracol}
 
 \textbf{Autodidactic}
-\begin{itemize}
-  \renewcommand{\labelitemi}{$\circ$}
-\item Seeking knowledge from OpenCourseware, Coursera, and edx.
-\item Classes taken: machine learning, neural networks, web intelligence/big data, algorithms II, cryptography I
+\begin{itemize}[label=$\circ$]
+\item Seeking knowledge from OpenCourseware, Coursera, edx, and other manuscripts
+\item Classes taken: machine learning, neural networks, big data, algorithms II,
+  cryptography, hardware security
 \end{itemize}
 
-\cut{}
+% \cut{}
 
-Commended as 2011 National Merit Scholar; 4.3 GPA, Summa Cum-Laude. Top 5\% (33/654) of graduating class.
+% Commended as 2011 National Merit Scholar; 4.3 GPA, Summa Cum-Laude. Top 5\% (33/654) of graduating class.
 
 \end{document}
