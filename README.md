@@ -13,6 +13,9 @@ make                                                 # make. docs are in doc-bin
 
 ## Notable Github Projects
 
+### Published PyPI Packages
+- [stump](https://github.com/EricCrosson/stump) ![Travis CI](https://travis-ci.org/EricCrosson/stump.svg?branch=master)
+
 ### Emacs MELPA Packages
 - [bury-successful-compilation](https://github.com/EricCrosson/bury-successful-compilation) [![MELPA](http://melpa.org/packages/bury-successful-compilation-badge.svg)](http://melpa.org/#/bury-successful-compilation)
 - [mode-line-in-header](https://github.com/EricCrosson/mode-line-in-header) ![Travis CI](https://travis-ci.org/EricCrosson/mode-line-in-header.svg) [![MELPA](http://melpa.org/packages/mode-line-in-header-badge.svg)](http://melpa.org/#/mode-line-in-header)
