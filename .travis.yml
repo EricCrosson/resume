@@ -1,7 +1,6 @@
 ---
 install: 
-  - sudo apt-get install texlive-latex-{recommended,extra} texlive-fonts-recommended
-  - sudo apt-get install cmake g++
+  - sudo apt-get install -y -qq -oDpkg::Use-Pty=0 texlive cmake g++
 
 script:
   - mkdir build
