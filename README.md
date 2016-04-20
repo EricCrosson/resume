@@ -32,6 +32,7 @@ make                                                 # make. docs are in doc-bin
 
 ### Web sites
 - [ericcrosson.com](https://github.com/EricCrosson/ericcrosson.github.io)
+- [Super Tic-Tac-Toe](http://sttt.r2labs.us/)
 
 ### Academic work
 School work has not been published in an effort to keep the University
