@@ -1,6 +1,6 @@
 ---
 install: 
-  - sudo apt-get install -y -qq -oDpkg::Use-Pty=0 texlive cmake g++ poppler-utils
+  - sudo apt-get install -y -qq -oDpkg::Use-Pty=0 texlive cmake g++ poppler-utils texlive-latex-extra
 
 script:
   - mkdir build
