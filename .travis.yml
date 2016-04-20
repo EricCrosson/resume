@@ -1,0 +1,16 @@
+---
+before_install: 
+  - sudo add-apt-repository -y ppa:texlive-backports/ppa
+  - sudo apt-get update
+
+install:
+  - sudo apt-get install -y texlive-latex-{base,recommended,extra}
+  - sudo apt-get install -y texlive-fonts-{recommended,extra}
+  - sudo apt-get install -y cmake g++ poppler-utils latex2html psutils
+  - mktexlsr
+
+script:
+  - mkdir build
+  - cd build
+  - cmake ..
+  - make

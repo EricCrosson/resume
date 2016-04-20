@@ -28,10 +28,11 @@ make                                                 # make. docs are in doc-bin
 - [help-extras](https://github.com/EricCrosson/help-extras) [![Build Status](https://travis-ci.org/EricCrosson/help-extras.svg)](https://travis-ci.org/EricCrosson/help-extras)
 
 #### Packages to publish
-- [help-find-org](https://github.com/EricCrosson/help-find-org) [![Build Status](https://travis-ci.org/EricCrosson/help-find-org.svg)](https://travis-ci.org/EricCrosson/help-find-org)
+- [help-find-org](https://github.com/EricCrosson/help-find-org)
 
 ### Web sites
 - [ericcrosson.com](https://github.com/EricCrosson/ericcrosson.github.io)
+- [Super Tic-Tac-Toe](http://sttt.r2labs.us/)
 
 ### Academic work
 School work has not been published in an effort to keep the University
