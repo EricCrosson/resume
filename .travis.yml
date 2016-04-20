@@ -1,0 +1,10 @@
+---
+install: 
+  - sudo apt-get install texlive-latex-{recommended,extra} textlive-fonts-recommended
+  - sudo apt-get install cmake g++
+
+script:
+  - mkdir build
+  - cd build
+  - cmake ..
+  - make
