@@ -1,6 +1,7 @@
 ---
 install: 
-  - sudo apt-get install -y -qq -oDpkg::Use-Pty=0 texlive cmake g++ poppler-utils latex2html
+  - sudo apt-get install -y -qq -oDpkg::Use-Pty=0 texlive texlive-latex-extra cmake g++ poppler-utils latex2html
+  - mktexlsr
 
 script:
   - mkdir build
