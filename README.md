@@ -36,6 +36,13 @@ Package|Build
 [unselectable-buffer](https://github.com/EricCrosson/unselectable-buffer)|
 [help-find-org](https://github.com/EricCrosson/help-find-org)|
 
+### Published Dockerhub containers
+
+Container|Abstract|
+---|---
+[hamroctopus/spin] | Provide a [Promela] development environment
+[hamroctopus/latex-cmake] | Provide a consistent dev and ci environment for latex documents using cmake
+
 Web sites
 ---------
 
@@ -61,3 +68,5 @@ encouraged by the advising professor.
   [EE 445M]: https://github.com/hershic/ee445m-labs
   [EE 360P]: https://github.com/stormosson/camelot
   [Promela]: https://en.m.wikipedia.org/wiki/Promela
+  [hamroctopus/latex-cmake]: https://hub.docker.com/r/hamroctopus/latex-cmake/
+  [hamroctopus/spin]: https://hub.docker.com/r/hamroctopus/spin/
