@@ -34,9 +34,7 @@ Package|Build
 [displaced-yank](https://github.com/EricCrosson/displaced-yank) |[![Travis CI](https://travis-ci.org/EricCrosson/displaced-yank.svg)](https://travis-ci.org/EricCrosson/displaced-yank)
 [help-extras](https://github.com/EricCrosson/help-extras) |[![Build Status](https://travis-ci.org/EricCrosson/help-extras.svg)](https://travis-ci.org/EricCrosson/help-extras)
 [unselectable-buffer](https://github.com/EricCrosson/unselectable-buffer)|
-
-#### Packages to publish
-- [help-find-org](https://github.com/EricCrosson/help-find-org)
+[help-find-org](https://github.com/EricCrosson/help-find-org)|
 
 Web sites
 ---------
