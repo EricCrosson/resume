@@ -1,7 +1,6 @@
 Eric Crosson's Resume [![Build Status](https://travis-ci.org/EricCrosson/resume.svg?branch=master)](https://travis-ci.org/EricCrosson/resume)
 =====================
 
-
 To build this project, follow normal cmake rules (outlined below).
 
 ```sh
@@ -13,7 +12,8 @@ make                                                 # make. docs are in doc-bin
 
 ---
 
-## Notable Github Projects
+Notable Github Projects
+-----------------------
 
 ### Published PyPI Packages
 Package|Build
@@ -38,15 +38,28 @@ Package|Build
 #### Packages to publish
 - [help-find-org](https://github.com/EricCrosson/help-find-org)
 
-### Web sites
-Website|Abstract
----|---
-[ericcrosson.com](https://github.com/EricCrosson/ericcrosson.github.io)|Developer thoughts without a README to call home
-[Super Tic-Tac-Toe](http://sttt.r2labs.us/)|Semester project for [EE 461L]
+Web sites
+---------
 
-### Academic work
-School work has not been published in an effort to keep the University
-of Texas' course materials reasonably hidden from current and future
-students.
+|Website|Abstract|
+|-------|--------|
+|[ericcrosson.com](https://github.com/EricCrosson/ericcrosson.github.io)|Developer thoughts without a README to call home|
+|[Super Tic-Tac-Toe](http://sttt.r2labs.us/)|Semester project for [EE 461L]|
 
-[EE 461L]: http://www.ece.utexas.edu/undergraduate/courses/461l
+Academic work
+-------------
+
+School work has not been published in an effort to keep the University of Texas'
+course materials reasonably hidden from current and future students, unless
+encouraged by the advising professor.
+
+|   Course  | Abstract |
+|-----------|----------|
+| [EE 445M] | Build a Real-Time Operating System from scratch |
+| [EE 360P] | Formally prove several distributed mutual exclusion algorithms with [Promela] |
+
+
+  [EE 461L]: http://www.ece.utexas.edu/undergraduate/courses/461l
+  [EE 445M]: https://github.com/hershic/ee445m-labs
+  [EE 360P]: https://github.com/stormosson/camelot
+  [Promela]: https://en.m.wikipedia.org/wiki/Promela
