@@ -17,7 +17,7 @@ Notable Github Projects
 
 ### Published PyPI Packages
 Package|Status|Version
----|---|
+---|---|---
 [stump](https://github.com/EricCrosson/stump) | [![Travis CI](https://travis-ci.org/EricCrosson/stump.svg?branch=master)](https://travis-ci.org/EricCrosson/stump) | [![Current Version](https://img.shields.io/pypi/v/stump.svg
 )](https://github.com/EricCrosson/stump)
 
