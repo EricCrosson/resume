@@ -22,14 +22,14 @@ Package|Status|Version|
 
 
 ### Emacs MELPA Packages
-Package|MELPA|Build|
+Package|MELPA|Status|
 ---|---|---
 [bury-successful-compilation](https://github.com/EricCrosson/bury-successful-compilation)| [![MELPA](http://melpa.org/packages/bury-successful-compilation-badge.svg)](http://melpa.org/#/bury-successful-compilation)|
 [mode-line-in-header](https://github.com/EricCrosson/mode-line-in-header) | [![MELPA](http://melpa.org/packages/mode-line-in-header-badge.svg)](http://melpa.org/#/mode-line-in-header)|[![Travis CI](https://travis-ci.org/EricCrosson/mode-line-in-header.svg)](https://travis-ci.org/EricCrosson/mode-line-in-header)
 [unkillable-scratch](https://github.com/EricCrosson/unkillable-scratch) |[![MELPA](http://melpa.org/packages/unkillable-scratch-badge.svg)](http://melpa.org/#/unkillable-scratch)|[![Travis CI](https://travis-ci.org/EricCrosson/unkillable-scratch.svg?branch=master)](https://travis-ci.org/EricCrosson/unkillable-scratch) 
 
 ### Unpublished Emacs Packages
-Package|Build
+Package|Status
 ---|---
 [snow](https://github.com/EricCrosson/snow) |[![Travis CI](https://travis-ci.org/EricCrosson/snow.svg)](https://travis-ci.org/EricCrosson/snow)
 [displaced-yank](https://github.com/EricCrosson/displaced-yank) |[![Travis CI](https://travis-ci.org/EricCrosson/displaced-yank.svg)](https://travis-ci.org/EricCrosson/displaced-yank)
