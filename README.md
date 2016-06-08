@@ -48,7 +48,7 @@ Web sites
 
 |Website|Abstract|
 |-------|--------|
-|[ericcrosson.com](https://github.com/EricCrosson/ericcrosson.github.io)|Developer thoughts without a README to call home|
+|[ericcrosson.com](ericcrosson.com)|Developer thoughts without a README to call home|
 |[Super Tic-Tac-Toe](http://sttt.r2labs.us/)|Semester project for [EE 461L]|
 
 Academic work
@@ -62,11 +62,13 @@ encouraged by the advising professor.
 |-----------|----------|
 | [EE 445M] | Build a Real-Time Operating System from scratch |
 | [EE 360P] | Formally prove several distributed mutual exclusion algorithms with [Promela] |
+| [EE 360T] | Sotware Design and Testing Lab |
 
 
   [EE 461L]: http://www.ece.utexas.edu/undergraduate/courses/461l
   [EE 445M]: https://github.com/hershic/ee445m-labs
   [EE 360P]: https://github.com/stormosson/camelot
+  [EE 360T]: https://github.com/EricCrosson/EE-360T
   [Promela]: https://en.m.wikipedia.org/wiki/Promela
   [hamroctopus/latex-cmake]: https://hub.docker.com/r/hamroctopus/latex-cmake/
   [hamroctopus/spin]: https://hub.docker.com/r/hamroctopus/spin/
