@@ -10,6 +10,13 @@ cd build && cmake ..                                 # cmake in build dir
 make                                                 # make. docs are in doc-bin 
 ```
 
+or, if you are familiar with docker, run the following from the root of this
+repo
+
+```sh
+docker run -tv $(pwd):/data hamroctopus/latex-cmake
+```
+
 ---
 
 Notable Github Projects
