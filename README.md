@@ -49,7 +49,7 @@ Web sites
 
 |Website|Abstract|
 |-------|--------|
-|[ericcrosson.com](ericcrosson.com)|Developer thoughts without a README to call home|
+|[ericcrosson.com](http://ericcrosson.com)|Developer thoughts without a README to call home|
 |[Super Tic-Tac-Toe](http://sttt.r2labs.us/)|Semester project for [EE 461L]|
 
 Academic work
