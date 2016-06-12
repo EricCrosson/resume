@@ -22,7 +22,7 @@ Package|Version|Status|
 
 
 ### Emacs MELPA Packages
-Package|MELPA|Status|
+Package|Version|Status|
 ---|---|---
 [bury-successful-compilation](https://github.com/EricCrosson/bury-successful-compilation)| [![MELPA](http://melpa.org/packages/bury-successful-compilation-badge.svg)](http://melpa.org/#/bury-successful-compilation)|
 [mode-line-in-header](https://github.com/EricCrosson/mode-line-in-header) | [![MELPA](http://melpa.org/packages/mode-line-in-header-badge.svg)](http://melpa.org/#/mode-line-in-header)|[![Travis CI](https://travis-ci.org/EricCrosson/mode-line-in-header.svg)](https://travis-ci.org/EricCrosson/mode-line-in-header)
