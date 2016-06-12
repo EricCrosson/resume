@@ -1,7 +1,7 @@
 Eric Crosson's Resume [![Build Status](https://travis-ci.org/EricCrosson/resume.svg?branch=master)](https://travis-ci.org/EricCrosson/resume)
 =====================
 
-To build this project, follow normal cmake rules (outlined below).
+To build this project, follow normal cmake rules (outlined below)
 
 ```sh
 git clone https://github.com/EricCrosson/resume.git  # clone the repository
