@@ -14,10 +14,11 @@ script:
   - cd build
   - cmake ..
   - make
+  - cd ..
 
 after_success:
   - mkdir -p $HOME/deliverables
-  - cp -fv doc-bin/*.pdf $HOME/deliverables
+  - cp -fv build/doc-bin/*.pdf $HOME/deliverables
   - bin/hook-travis-publish-pdfs.sh
 
 env:
