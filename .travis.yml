@@ -1,0 +1,26 @@
+---
+before_install:
+  - sudo add-apt-repository -y ppa:texlive-backports/ppa
+  - sudo apt-get update
+
+install:
+  - sudo apt-get install -y texlive-latex-{base,recommended,extra}
+  - sudo apt-get install -y texlive-fonts-{recommended,extra}
+  - sudo apt-get install -y cmake g++ poppler-utils latex2html psutils
+  - mktexlsr
+
+script:
+  - mkdir build
+  - cd build
+  - cmake ..
+  - make
+  - cd ..
+
+after_success:
+  - mkdir -p $HOME/deliverables
+  - cp -fv build/doc-bin/*.pdf $HOME/deliverables
+  - bin/hook-travis-publish-pdfs.sh
+
+env:
+  global:
+    secure: eqBB7rJd7q+nf/6OiO7lPqQl5uvQX4Q+TYX54+TLLiAA/Sch31VxDVYWg5MISYE335UVrQZ7B0MYhWxQRtu6kF2qqyzY6iKUJ2UeYHJDlBv9MaKll9sQhF2zTQW+V2reczYYLtFYeUwt8a+I6p8IJGexqmGibC1hN6TcrTonMoo=
