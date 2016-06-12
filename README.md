@@ -21,6 +21,7 @@ documents are in `/build/doc-bin`, and automatically pushed by [Travis CI] to
 the [deliverables branch].
 
   [Travis CI]: https://travis-ci.org/
+  [deliverables branch]: https://github.com/EricCrosson/resume/blob/deliverables/resume.pdf
 
 ---
 
