@@ -59,11 +59,11 @@ School work has not been published in an effort to keep the University of Texas'
 course materials reasonably hidden from current and future students, unless
 encouraged by the advising professor.
 
-|   Course  | Abstract |
-|-----------|----------|
-| [EE 445M] | Build a Real-Time Operating System from scratch |
-| [EE 360P] | Formally prove several distributed mutual exclusion algorithms with [Promela] |
-| [EE 360T] | Sotware Design and Testing Lab |
+|   Course  | Abstract | Status |
+|-----------|----------|--------|
+| [EE 445M] | Build a Real-Time Operating System from scratch | 
+| [EE 360P] | Formally prove several distributed mutual exclusion algorithms with [Promela] | [![Build Status](https://travis-ci.org/stormosson/camelot.svg?branch=develop)](https://travis-ci.org/stormosson/camelot) |
+| [EE 360T] | Sotware Design and Testing Lab |[![Build Status](https://travis-ci.org/EricCrosson/EE-360T.svg?branch=master)](https://travis-ci.org/EricCrosson/EE-360T) 
 
 
   [EE 461L]: http://www.ece.utexas.edu/undergraduate/courses/461l
