@@ -3,22 +3,14 @@ branches:
   except:
     - deliverables
 
-before_install:
-  - sudo add-apt-repository -y ppa:texlive-backports/ppa
-  - sudo apt-get update
+services:
+  - docker
 
 install:
-  - sudo apt-get install -y texlive-latex-{base,recommended,extra}
-  - sudo apt-get install -y texlive-fonts-{recommended,extra}
-  - sudo apt-get install -y cmake g++ poppler-utils latex2html psutils
-  - mktexlsr
+  - docker pull hamroctopus/latex-cmake
 
 script:
-  - mkdir build
-  - cd build
-  - cmake ..
-  - make
-  - cd ..
+  - docker run -t -v $(pwd):/data hamroctopus/latex-cmake
 
 after_success:
   - mkdir -p $HOME/deliverables
