@@ -25,6 +25,7 @@ git checkout deliverables || git checkout --orphan deliverables
 cp -fv README* $HOME/deliverables
 git rm -rf *
 git rm -f .*
+git rm -f .travis.yml
 cp -Rfv $HOME/deliverables/* ./
 git add -f .
 git commit -m "Latest deliverables from successful travis build $TRAVIS_BUILD_NUMBER auto-pushed to deliverables"

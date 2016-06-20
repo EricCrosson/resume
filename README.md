@@ -55,7 +55,8 @@ Package|Status
 Container|Abstract|
 ---|---
 [spin] | Provide a [Promela] development environment
-[latex-cmake] | Provide a consistent dev and ci environment for latex documents using cmake
+[latex-cmake] | Provide a cmake build environment for latex projects
+[graphviz] | Provide a build environment for dot files using graphviz 2.38.0
 
 Web sites
 ---------
@@ -86,3 +87,4 @@ encouraged by the advising professor.
   [Promela]: https://en.m.wikipedia.org/wiki/Promela
   [latex-cmake]: https://hub.docker.com/r/hamroctopus/latex-cmake/
   [spin]: https://hub.docker.com/r/hamroctopus/spin/
+  [graphviz]: https://hub.docker.com/r/hamroctopus/graphviz/
