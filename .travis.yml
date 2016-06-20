@@ -1,4 +1,8 @@
 ---
+branches:
+  except:
+    - deliverables
+
 before_install:
   - sudo add-apt-repository -y ppa:texlive-backports/ppa
   - sudo apt-get update
