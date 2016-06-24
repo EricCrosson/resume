@@ -52,11 +52,12 @@ Package|Status
 
 ### Published Dockerhub containers
 
-Container|Abstract|
----|---
-[spin] | Provide a [Promela] development environment
-[latex-cmake] | Provide a cmake build environment for latex projects
-[graphviz] | Provide a build environment for dot files using graphviz 2.38.0
+Container|Abstract|Status|
+---|---|---|
+[spin] | Provide a [Promela] development environment|[![Build Status](https://travis-ci.org/EricCrosson/spin.svg?branch=travis-ci)](https://travis-ci.org/EricCrosson/spin)
+[latex-cmake] | Provide a cmake build environment for latex projects|[![Build Status](https://travis-ci.org/EricCrosson/latex-cmake.svg?branch=travis-ci)](https://travis-ci.org/EricCrosson/latex-cmake)
+[graphviz] | Provide a build environment for dot files using graphviz 2.38.0|[![Build Status](https://travis-ci.org/EricCrosson/graphviz.svg?branch=graphviz)](https://travis-ci.org/EricCrosson/graphviz)
+
 
 Web sites
 ---------
