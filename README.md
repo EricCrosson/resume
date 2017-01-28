@@ -15,6 +15,8 @@ or, if you are familiar with docker, run the following from the root of this
 
 ```sh
 docker run -tv $(pwd):/data hamroctopus/latex-cmake:3.4.0
+# or
+docker-compose up
 ```
 
 documents are in `/build/doc-bin`, and automatically pushed by [Travis CI] to
@@ -31,15 +33,14 @@ Notable Github Projects
 ### Published PyPI Packages
 Package|Version|Status|
 ---|---|---|
-[stump](https://github.com/EricCrosson/stump) | [![Current Version](https://img.shields.io/pypi/v/stump.svg)](https://github.com/EricCrosson/stump)| [![Travis CI](https://travis-ci.org/EricCrosson/stump.svg?branch=master)](https://travis-ci.org/EricCrosson/stump) 
+[stump](https://github.com/EricCrosson/stump) | [![Current Version](https://img.shields.io/pypi/v/stump.svg)](https://github.com/EricCrosson/stump)| [![Travis CI](https://travis-ci.org/EricCrosson/stump.svg?branch=master)](https://travis-ci.org/EricCrosson/stump)
 
 
 ### Emacs MELPA Packages
 Package|Version|Status|
 ---|---|---
-[bury-successful-compilation](https://github.com/EricCrosson/bury-successful-compilation)| [![MELPA](http://melpa.org/packages/bury-successful-compilation-badge.svg)](http://melpa.org/#/bury-successful-compilation)|
-[mode-line-in-header](https://github.com/EricCrosson/mode-line-in-header) | [![MELPA](http://melpa.org/packages/mode-line-in-header-badge.svg)](http://melpa.org/#/mode-line-in-header)|[![Travis CI](https://travis-ci.org/EricCrosson/mode-line-in-header.svg)](https://travis-ci.org/EricCrosson/mode-line-in-header)
-[unkillable-scratch](https://github.com/EricCrosson/unkillable-scratch) |[![MELPA](http://melpa.org/packages/unkillable-scratch-badge.svg)](http://melpa.org/#/unkillable-scratch)|[![Travis CI](https://travis-ci.org/EricCrosson/unkillable-scratch.svg?branch=master)](https://travis-ci.org/EricCrosson/unkillable-scratch) 
+[bury-successful-compilation](https://github.com/EricCrosson/bury-successful-compilation)| [![MELPA](http://melpa.org/packages/bury-successful-compilation-badge.svg)](http://melpa.org/#/bury-successful-compilation)|[![Build Status](https://travis-ci.org/EricCrosson/bury-successful-compilation.svg?branch=master)](https://travis-ci.org/EricCrosson/bury-successful-compilation)
+[unkillable-scratch](https://github.com/EricCrosson/unkillable-scratch) |[![MELPA](http://melpa.org/packages/unkillable-scratch-badge.svg)](http://melpa.org/#/unkillable-scratch)|[![Travis CI](https://travis-ci.org/EricCrosson/unkillable-scratch.svg?branch=master)](https://travis-ci.org/EricCrosson/unkillable-scratch)
 
 ### Unpublished Emacs Packages
 Package|Status
@@ -76,9 +77,9 @@ encouraged by the advising professor.
 
 |   Course  | Abstract | Status |
 |-----------|----------|--------|
-| [EE 445M] | Build a Real-Time Operating System from scratch | 
+| [EE 445M] | Build a Real-Time Operating System from scratch |
 | [EE 360P] | Formally prove several distributed mutual exclusion algorithms with [Promela] | [![Build Status](https://travis-ci.org/stormosson/camelot.svg?branch=develop)](https://travis-ci.org/stormosson/camelot) |
-| [EE 360T] | Sotware Design and Testing Lab |[![Build Status](https://travis-ci.org/EricCrosson/EE-360T.svg?branch=master)](https://travis-ci.org/EricCrosson/EE-360T) 
+| [EE 360T] | Sotware Design and Testing Lab |[![Build Status](https://travis-ci.org/EricCrosson/EE-360T.svg?branch=master)](https://travis-ci.org/EricCrosson/EE-360T)
 
 
   [EE 461L]: http://www.ece.utexas.edu/undergraduate/courses/461l
