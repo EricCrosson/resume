@@ -15,6 +15,8 @@ or, if you are familiar with docker, run the following from the root of this
 
 ```sh
 docker run -tv $(pwd):/data hamroctopus/latex-cmake:3.4.0
+# or
+docker-compose up
 ```
 
 documents are in `/build/doc-bin`, and automatically pushed by [Travis CI] to
