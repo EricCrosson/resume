@@ -14,7 +14,7 @@ script:
 
 after_success:
   - mkdir -p $HOME/deliverables
-  - cp -fv build/doc-bin/*.pdf $HOME/deliverables
+  - cp -fv build/doc-bin/*.{pdf,md} $HOME/deliverables
   - bin/hook-travis-publish-pdfs.sh
 
 env:
