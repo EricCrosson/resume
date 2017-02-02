@@ -30,6 +30,13 @@ the [deliverables branch].
 Notable Github Projects
 -----------------------
 
+### Published npm packages
+
+Package|Version
+---|---|
+[slack-wrap](https://github.com/EricCrosson/slack-wrap)|[![NPM version](https://badge.fury.io/js/slack-wrap.svg)](https://npmjs.org/package/slack-wrap)
+[guard-cli](https://github.com/EricCrosson/guard-cli)|[![NPM version](https://badge.fury.io/js/guard-cli.svg)](https://npmjs.org/package/guard-cli)
+
 ### Published PyPI Packages
 Package|Version|Status|
 ---|---|---|
