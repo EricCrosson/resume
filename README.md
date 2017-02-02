@@ -32,10 +32,10 @@ Notable Github Projects
 
 ### Published npm packages
 
-Package|Version
+Package|Version|Status
 ---|---|
-[slack-wrap](https://github.com/EricCrosson/slack-wrap)|[![NPM version](https://badge.fury.io/js/slack-wrap.svg)](https://npmjs.org/package/slack-wrap)
-[guard-cli](https://github.com/EricCrosson/guard-cli)|[![NPM version](https://badge.fury.io/js/guard-cli.svg)](https://npmjs.org/package/guard-cli)
+[slack-wrap](https://github.com/EricCrosson/slack-wrap)|[![NPM version](https://badge.fury.io/js/slack-wrap.svg)](https://npmjs.org/package/slack-wrap)|[![Build Status](https://travis-ci.org/EricCrosson/slack-wrap.svg?branch=master)](https://travis-ci.org/EricCrosson/slack-wrap)
+[guard-cli](https://github.com/EricCrosson/guard-cli)|[![NPM version](https://badge.fury.io/js/guard-cli.svg)](https://npmjs.org/package/guard-cli)|
 
 ### Published PyPI Packages
 Package|Version|Status|
