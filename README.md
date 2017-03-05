@@ -63,9 +63,10 @@ Package|Status
 
 Container|Abstract|Stats|Status|
 ---|---|---|---|
-[spin] | Provide a [Promela] development environment|[![Dockerhub Stats](https://img.shields.io/docker/pulls/hamroctopus/spin.svg)](https://img.shields.io/docker/pulls/hamroctopus/spin.svg)|[![Build Status](https://travis-ci.org/EricCrosson/spin.svg?branch=travis-ci)](https://travis-ci.org/EricCrosson/spin)
-[latex-cmake] | Provide a cmake build environment for latex projects|[![Dockerhub Stats](https://img.shields.io/docker/pulls/hamroctopus/latex-cmake.svg)](https://img.shields.io/docker/pulls/hamroctopus/latex-cmake.svg)|[![Build Status](https://travis-ci.org/EricCrosson/latex-cmake.svg?branch=travis-ci)](https://travis-ci.org/EricCrosson/latex-cmake)
-[graphviz] | Provide a build environment for dot files using graphviz 2.38.0|[![Dockerhub Stats](https://img.shields.io/docker/pulls/hamroctopus/graphviz.svg)](https://img.shields.io/docker/pulls/hamroctopus/graphviz.svg)|[![Build Status](https://travis-ci.org/EricCrosson/graphviz.svg?branch=graphviz)](https://travis-ci.org/EricCrosson/graphviz)
+[spin] | Provide a [Promela] development environment|[![Dockerhub Stats](https://img.shields.io/docker/pulls/hamroctopus/spin.svg)](https://hub.docker.com/r/hamroctopus/spin/)|[![Build Status](https://travis-ci.org/EricCrosson/spin.svg?branch=travis-ci)](https://travis-ci.org/EricCrosson/spin)
+[latex-cmake] | Provide a cmake build environment for latex projects|[![Dockerhub Stats](https://img.shields.io/docker/pulls/hamroctopus/latex-cmake.svg)](https://hub.docker.com/r/hamroctopus/latex-cmake/)|[![Build Status](https://travis-ci.org/EricCrosson/latex-cmake.svg?branch=travis-ci)](https://travis-ci.org/EricCrosson/latex-cmake)
+[graphviz] | Provide a build environment for dot files using graphviz 2.38.0|[![Dockerhub Stats](https://img.shields.io/docker/pulls/hamroctopus/graphviz.svg)](https://hub.docker.com/r/hamroctopus/graphviz/)|[![Build Status](https://travis-ci.org/EricCrosson/graphviz.svg?branch=graphviz)](https://travis-ci.org/EricCrosson/graphviz)
+[serverspec] | Provide a test environment with serverspec 2.38.0|[![Dockerhub Stats](https://img.shields.io/docker/pulls/hamroctopus/serverspec.svg)](https://hub.docker.com/r/hamroctopus/serverspec/)|[![Build Status](https://travis-ci.org/EricCrosson/docker-serverspec.svg?branch=master)](https://travis-ci.org/EricCrosson/docker-serverspec)
 
 
 Web sites
@@ -98,3 +99,4 @@ encouraged by the advising professor.
   [latex-cmake]: https://hub.docker.com/r/hamroctopus/latex-cmake/
   [spin]: https://hub.docker.com/r/hamroctopus/spin/
   [graphviz]: https://hub.docker.com/r/hamroctopus/graphviz/
+  [serverspec]: https://hub.docker.com/r/hamroctopus/serverspec/
