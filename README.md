@@ -1,13 +1,11 @@
-Eric Crosson's Resume [![Build Status](https://travis-ci.org/EricCrosson/resume.svg?branch=master)](https://travis-ci.org/EricCrosson/resume)
-=====================
+# Eric Crosson's Resume [![Build Status](https://travis-ci.org/EricCrosson/resume.svg?branch=master)](https://travis-ci.org/EricCrosson/resume)
 
 To build this project, follow normal cmake rules (outlined below)
 
 ```sh
-git clone --depth 1 https://github.com/EricCrosson/resume.git  # clone the repository
-cd resume && mkdir build                                       # make build dir
-cd build && cmake ..                                           # cmake in build dir
-make
+git clone https://github.com/EricCrosson/resume.git  # clone the repository
+cd resume && mkdir build && cd build                 # make build dir
+cmake .. && make                                     # build with cmake
 ```
 
 or, if you are familiar with docker, run the following from the root of this
@@ -27,8 +25,7 @@ the [deliverables branch].
 
 ---
 
-Notable Github Projects
------------------------
+## Notable Github Projects
 
 ### Published npm packages
 
@@ -49,6 +46,7 @@ Package|Version|Status|
 ---|---|---
 [bury-successful-compilation](https://github.com/EricCrosson/bury-successful-compilation)| [![MELPA](http://melpa.org/packages/bury-successful-compilation-badge.svg)](http://melpa.org/#/bury-successful-compilation)|[![Build Status](https://travis-ci.org/EricCrosson/bury-successful-compilation.svg?branch=master)](https://travis-ci.org/EricCrosson/bury-successful-compilation)
 [unkillable-scratch](https://github.com/EricCrosson/unkillable-scratch) |[![MELPA](http://melpa.org/packages/unkillable-scratch-badge.svg)](http://melpa.org/#/unkillable-scratch)|[![Travis CI](https://travis-ci.org/EricCrosson/unkillable-scratch.svg?branch=master)](https://travis-ci.org/EricCrosson/unkillable-scratch)
+[qt-pro-mode](https://github.com/EricCrosson/qt-pro-mode)|[![MELPA](https://melpa.org/packages/qt-pro-mode-badge.svg)](https://melpa.org/#/qt-pro-mode)|[![Build Status](https://travis-ci.org/EricCrosson/qt-pro-mode.svg?branch=master)](https://travis-ci.org/EricCrosson/qt-pro-mode)
 
 ### Unpublished Emacs Packages
 Package|Status
