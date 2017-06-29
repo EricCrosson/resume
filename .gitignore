@@ -27,3 +27,5 @@
 /auto/
 /build/
 /doc/auto/resume.el
+
+.DS_Store
