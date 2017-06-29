@@ -39,11 +39,11 @@ Package|Abstract|Version|Status|
 
 ### Git projects
 
-Project|Abstract|Version|Status
----|---|---|---
-[captain-hook]|Upgrade a git hook from a script into a [conf.d](http://blog.siphos.be/2013/05/the-linux-d-approach/)-style pipeline|[![Version](https://img.shields.io/github/release/git-hook/captain-hook.svg)](https://github.com/git-hook/captain-hook/releases)|[![Build Status](https://travis-ci.org/git-hook/captain-hook.svg?branch=master)](https://travis-ci.org/git-hook/captain-hook)
-[post-clone]|Implementation of a post-clone hook|[![Version](https://img.shields.io/github/release/git-hook/post-clone.svg)](https://github.com/git-hook/post-clone/releases)|
-[git-ledger](https://github.com/git-hook/git-ledger)|Track local git clones|[![Version](https://img.shields.io/github/tag/git-hook/git-ledger.svg)](https://github.com/git-hook/git-ledger/releases)|[![Build status](https://travis-ci.org/git-hook/git-ledger.svg?branch=master)](https://travis-ci.org/git-hook/git-ledger)
+Language|Project|Abstract|Version|Status
+---|---|---|---|---
+bash|[captain-hook]|Upgrade a git hook from a script into a [conf.d](http://blog.siphos.be/2013/05/the-linux-d-approach/)-style pipeline|[![Version](https://img.shields.io/github/release/git-hook/captain-hook.svg)](https://github.com/git-hook/captain-hook/releases)|[![Build Status](https://travis-ci.org/git-hook/captain-hook.svg?branch=master)](https://travis-ci.org/git-hook/captain-hook)
+bash|[post-clone]|Implementation of a post-clone hook|[![Version](https://img.shields.io/github/release/git-hook/post-clone.svg)](https://github.com/git-hook/post-clone/releases)|
+bash|[git-ledger](https://github.com/git-hook/git-ledger)|Track local git clones|[![Version](https://img.shields.io/github/tag/git-hook/git-ledger.svg)](https://github.com/git-hook/git-ledger/releases)|[![Build status](https://travis-ci.org/git-hook/git-ledger.svg?branch=master)](https://travis-ci.org/git-hook/git-ledger)
 
   [captain-hook]: https://github.com/git-hook/captain-hook
   [post-clone]: https://github.com/git-hook/post-clone
@@ -71,12 +71,12 @@ Container|Abstract|Stats|Status|
   [CI]: https://en.wikipedia.org/wiki/Continuous_integration
   [ansible]: https://github.com/EricCrosson/ansible-docker
 
-### golang packages
+### Additional golang packages
 
-Package|Abstract|Version|Status
----|---|---|---
-[dsync]|Synchronize Docker images without a registry |[![Version](https://img.shields.io/github/tag/ericcrosson/dsync.svg)](https://github.com/ericcrosson/dsync/releases)|
-[confluent]|Become fluent with [Confluence]|[![Version](https://img.shields.io/github/tag/ericcrosson/dsync.svg)](https://github.com/ericcrosson/dsync/releases)|
+Package|Abstract|Version
+---|---|---|
+[dsync]|Synchronize Docker images without a registry |[![Version](https://img.shields.io/github/tag/ericcrosson/dsync.svg)](https://github.com/ericcrosson/dsync/releases)
+[confluent]|Become fluent with [Confluence]|[![Version](https://img.shields.io/github/tag/ericcrosson/dsync.svg)](https://github.com/ericcrosson/dsync/releases)
 
   [dsync]: https://github.com/ericcrosson/dsync
   [confluent]: https://github.com/ericcrosson/confluent
