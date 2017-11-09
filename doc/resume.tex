@@ -14,7 +14,7 @@
 
 \begin{center}
   \textbf{Eric Crosson} \\
-  6109 Shadow Valley Dr Unit A Austin, TX 78705 \\
+  1508 Southport Dr 231 Austin, TX 78705 \\
   (512) 222 - 9052 / esc@ericcrosson.com / www.ericcrosson.com
 \end{center}
 
@@ -33,54 +33,93 @@ computer architecture, neural networks
 \cut{}
 
 \textbf{Work Experience} \\
-\begin{paracol}{2}
-  \textbf{ShoreTel -- Software Engineer (2012 - 2013)}
-  \begin{itemize}[label=$\circ$]
-  \item Created IP-Phone VNC client and unit test architecture/DSL for firmware
-    regression
+  \textbf{ShoreTel -- Software Engineer (2015 - Today)}
+  \begin{itemize}
+  \item Architect of development infrastructure
+    \begin{itemize}[label=$\circ$]
+    \item maintainer of docker-based GitLab instance and cluster of continuous-integration machines
+    \item created, maintained docker images used for testing in GitLab CI
+    \item standardized and maintained developer environment to eliminate the "works on my machine" problem
+    \item designed git-centric developer workflows from issue tracking, testing and code review to repository and release management
+    \item increased rate of delivery of phone software updates to the cloud and field with rolling releases
+    \item managing service upgrades with zero-downtime
+  \end{itemize}
+
+    \item Created customized GNU/Linux distribution for proprietary hardware
+    \begin{itemize}[label=$\circ$]
+      \item proficient with yocto \& bitbake
+      \item familiarity with kernel modules, software patching, cross-compilation and the Device Tree
+      \item knowledgable about nagivating licensing in complex software projects
+    \end{itemize}
+
+  \item Phone software architect
+    \begin{itemize}[label=$\circ$]
+      \item decoupled components in existing monolithic application
+      \item designed and implemented full desktop environment
+      \item designed modules for testability
+      \item brought components under test
+      \item used asynchronous Qt 5 with safe concurrency patterns
+      \item eradicated deadlocks and crashes
+      \item experience with product lifecycles, safe deploys to production
+    \end{itemize}
+
+  \end{itemize}
+
+  \textbf{IBM -- Cloud Infrastructure Services (2015)}
+  \begin{itemize}
+    \item Cloud continuous integration and continuous delivery team
+    \begin{itemize}[label=$\circ$]
+      \item managed OpenStack cloud-hosting services
+      \item maintained production-facing api for managing user accounts
+      \item contributed to open source projects including OpenStack, Bluemix
+      \item worked with several patent teams
+    \end{itemize}
+
+    \item Testing-based DevOps
+    \begin{itemize}[label=$\circ$]
+      \item compliance with test-driven development and behavior-driven development
+      \item hosted and maintained internal services on our own cloud infrastructure
+      \item release procedure used pipeline with Jenkis CI and Gerrit code review
+    \end{itemize}
   \end{itemize}
 
   \textbf{Intel -- Post Silicon Validation (2013 - 2014)}
+  \begin{itemize}
+  \item Integration of third-party RTL into homegrown chipset
   \begin{itemize}[label=$\circ$]
-  \item Maintained \& wrote tests to stress hardware components
-  \end{itemize}
-
-  \textbf{Intel -- Pre Silicon Validation (2014 - 2015)}
-  \begin{itemize}[label=$\circ$]
-  \item Created analysis engine for signals of 3\textsuperscript{rd} party RTL
-  \item Integrated HDCP model tests against project RTL
-  \end{itemize}
-
-  \textbf{ShoreTel (2015 - Today)}
-  \begin{itemize}[label=$\circ$]
-  \item Architect of new dev infra and phone software
-  \item Modernized development, testing \& release processes
-  \item Created custom Linux distro for custom hardware
-  \end{itemize}
-
-  \switchcolumn{}
-  \textbf{Centaur Technology -- Design Verification (2013)}
-  \begin{itemize}[label=$\circ$]
-  \item Integrated processor model with bochs to allow OS-level
-    emulation and testing of presilicon hardware
-  \item Profiled, optimized, debugged, and documented presilicon simulator
+      \item automated integration between git and clearcase repositories
+      \item developed waveform analysis engine for third-party RTL
+      \item integrated High-bandwidth Dicital Content Protection (HDCP) model tests against project RTL
+    \end{itemize}
   \end{itemize}
 
   \textbf{Centaur Technology -- Design Verification (2014)}
   \begin{itemize}[label=$\circ$]
-  \item \mbox{Created multicore PSE36/PAE x86 bytecode generator}
-  \item Designed, implemented true LRU in System Verilog
+    \item created multicore PSE36/PAE x86 bytecode generator for paging stress-tests
+    \item implemented true LRU in System Verilog for comparison tests
+    \item collaboration in formal verification with ACL2 theorem proofs
   \end{itemize}
 
-  \textbf{IBM -- Cloud Infrastructure Services (2015)}
+  \textbf{Intel -- Pre Silicon Validation (2014 - 2015)}
   \begin{itemize}[label=$\circ$]
-  \item Community work with OpenStack
-  \item DevOps management of public cloud offering
-  \item Created API to manage production accounts
-  \item Fostered habit of working with patent teams
+    \item spent time in clean-room laboratory
+    \item wrote tests to stress hardware components
+    \item consolidated DSL tests and extracted code into test libraries
   \end{itemize}
-\end{paracol}
 
+  \textbf{Centaur Technology -- Design Verification (2013)}
+  \begin{itemize}[label=$\circ$]
+    \item integrated processor model with bochs to allow OS-level emulation and testing of presilicon hardare
+    \item automated testing of common tasks and libraries
+    \item synthesized RTL onto FPGAs for faster testing
+  \end{itemize}
+
+  \textbf{ShoreTel -- Software Engineer (2012 - 2013)}
+  \begin{itemize}[label=$\circ$]
+    \item fixed bugs in IP Phone codebase
+    \item created IP-Phone VPC client
+    \item designed and implemented unit-test architecture and DSL for full-stack firmware regression testing
+  \end{itemize}
 \cut{}
 
 \textbf{Self-motivated projects}
@@ -97,30 +136,30 @@ computer architecture, neural networks
   \begin{itemize}[label=$\circ$]
   \item Cell-tracking image processing
   \item Eye-gaze projection software
-  \item 4 degree of freedom robotic arm articulation
+  \item 4 degree-of-freedom robotic arm articulation
   \item Static image background extraction
   \end{itemize}
 \end{paracol}
 
 \cut{}
 
-\textbf{Extra Curricular Activities}
-\begin{itemize}[label=$\circ$]
-\item Study of blockchain technology, functional programming, infrastructure as code, formal verification, AI/ML
-\item Founding mentor to FIRST Robotics Competition (FRC) team 3529; mentor FTC,
-  FLL, Jr. FLL teams
-\end{itemize}
-
-\textbf{Hobbyist programmer, GNU/Linux aficionado, Emacs appreciator}
+\textbf{Algorithmic trader, GNU/Linux aficionado, Emacs appreciator}
 \begin{itemize}[label=$\circ$]
 \item Expertise in Lisp, git, Qt, C/C++, Ansible, Docker, CI, Python, Java, Perl, Bash, asm,
   \LaTeX{}, documentation
 \item Familiar with DevOps, BitBake, Node.js, golang, CMake, Octave, Haskell, VHDL, S. Verilog, ACL2, Promela
 \end{itemize}
 
+\textbf{Extra Curricular Activities}
+\begin{itemize}[label=$\circ$]
+\item Study of blockchain technology, functional programming, formal verification, AI/ML, Brazilian jiu-jitsu
+\item Founding mentor to FIRST Robotics Competition (FRC) team 3529; mentor FTC,
+  FLL, Jr. FLL teams
+\end{itemize}
+
 \textbf{Autodidactic}
 \begin{itemize}[label=$\circ$]
-\item Seeking knowledge from OpenCourseware, Coursera, edx, and other manuscripts
+\item Seeking knowledge from OpenCourseware, Coursera, edx, and other sources
 \item Classes taken: machine learning, neural networks, big data, algorithms II,
   cryptography II, hardware security
 \end{itemize}
