@@ -29,3 +29,5 @@
 /doc/auto/resume.el
 
 .DS_Store
+doc/notes.org
+doc/resume.org
