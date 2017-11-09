@@ -89,7 +89,14 @@ Package|Abstract|Version|Stats|Status
 [slack-wrap](https://github.com/EricCrosson/slack-wrap)|Wrap cli commands and send notifications over [slack]|[![NPM version](https://badge.fury.io/js/slack-wrap.svg)](https://npmjs.org/package/slack-wrap) | [![npm](https://img.shields.io/npm/dt/slack-wrap.svg)](https://www.npmjs.com/package/slack-wrap) | [![Build Status](https://travis-ci.org/EricCrosson/slack-wrap.svg?branch=master)](https://travis-ci.org/EricCrosson/slack-wrap)
 [guard-cli](https://github.com/EricCrosson/guard-cli)|Simplify [busy-wait] in the terminal|[![NPM version](https://badge.fury.io/js/guard-cli.svg)](https://npmjs.org/package/guard-cli)|[![npm](https://img.shields.io/npm/dt/guard-cli.svg)](https://www.npmjs.com/package/guard-cli) |[![Build Status](https://travis-ci.org/EricCrosson/guard-cli.svg?branch=master)](https://travis-ci.org/EricCrosson/guard-cli)
 [generator-ansible-docker] | A [yeoman](https://github.com/yeoman) generator for ansible-maintained docker projects | [![NPM version](https://badge.fury.io/js/generator-ansible-docker.svg)](https://www.npmjs.com/package/generator-ansible-docker) | [![npm](https://img.shields.io/npm/dt/generator-ansible-docker.svg)](https://www.npmjs.com/package/generator-ansible-docker)|
+[coinmarketcap-api] | API for querying [coinmarketcap.com] | [![NPM version](https://badge.fury.io/js/coinmarketcap-cli-api.svg)](https://npmjs.org/package/coinmarketcap-cli-api) | [![npm](https://img.shields.io/npm/dt/coinmarketcap-cli-api.svg)](https://www.npmjs.com/package/coinmarketcap-cli-api) |
+[coinmarketcap-cli] | CLI for [coinmarketcap.com] | [![NPM version](https://badge.fury.io/js/coinmarketcap-cli.svg)](https://npmjs.org/package/coinmarketcap-cli) | [![npm](https://img.shields.io/npm/dt/coinmarketcap-cli.svg)](https://www.npmjs.com/package/coinmarketcap-cli) |
+[discord-coinmarketcap-bot] | Discord bot to query [coinmarketcap.com] | [![NPM version](https://badge.fury.io/js/discord-coinmarketcap-bot.svg)](https://npmjs.org/package/discord-coinmarketcap-bot) | [![npm](https://img.shields.io/npm/dt/discord-coinmarketcap-bot.svg)](https://www.npmjs.com/package/discord-coinmarketcap-bot) |
 
+  [coinmarketcap.com]: https://coinmarketcap.com
+  [coinmarketcap-api]: https://github.com/EricCrosson/coinmarketcap-api
+  [coinmarketcap-cli]: https://github.com/EricCrosson/coinmarketcap-cli
+  [discord-coinmarketcap-bot]: https://github.com/EricCrosson/discord-coinmarketcap-bot
   [generator-ansible-docker]: https://github.com/EricCrosson/generator-ansible-docker
   [busy-wait]: https://en.m.wikipedia.org/wiki/Busy_waiting
   [slack]: https://slack.com
