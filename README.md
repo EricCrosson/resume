@@ -92,11 +92,13 @@ Package|Abstract|Version|Stats|Status
 [coinmarketcap-api] | API for querying [coinmarketcap.com] | [![NPM version](https://badge.fury.io/js/coinmarketcap-cli-api.svg)](https://npmjs.org/package/coinmarketcap-cli-api) | [![npm](https://img.shields.io/npm/dt/coinmarketcap-cli-api.svg)](https://www.npmjs.com/package/coinmarketcap-cli-api) |
 [coinmarketcap-cli] | CLI for [coinmarketcap.com] | [![NPM version](https://badge.fury.io/js/coinmarketcap-cli.svg)](https://npmjs.org/package/coinmarketcap-cli) | [![npm](https://img.shields.io/npm/dt/coinmarketcap-cli.svg)](https://www.npmjs.com/package/coinmarketcap-cli) |
 [discord-coinmarketcap-bot] | Discord bot to query [coinmarketcap.com] | [![NPM version](https://badge.fury.io/js/discord-coinmarketcap-bot.svg)](https://npmjs.org/package/discord-coinmarketcap-bot) | [![npm](https://img.shields.io/npm/dt/discord-coinmarketcap-bot.svg)](https://www.npmjs.com/package/discord-coinmarketcap-bot) |
+[discord-twitter-streaming-bot] | Discord bot to stream tweets | [![NPM version](https://badge.fury.io/js/discord-twitter-straming-bot.svg)](https://npmjs.org/package/discord-twitter-streaming-bot) | [![npm](https://img.shields.io/npm/dt/discord-twitter-streaming-bot.svg)](https://www.npmjs.com/package/discord-twitter-streaming-bot) |
 
   [coinmarketcap.com]: https://coinmarketcap.com
   [coinmarketcap-api]: https://github.com/EricCrosson/coinmarketcap-api
   [coinmarketcap-cli]: https://github.com/EricCrosson/coinmarketcap-cli
   [discord-coinmarketcap-bot]: https://github.com/EricCrosson/discord-coinmarketcap-bot
+  [discord-twitter-streaming-bot]: https://github.com/EricCrosson/discord-twitter-streaming-bot
   [generator-ansible-docker]: https://github.com/EricCrosson/generator-ansible-docker
   [busy-wait]: https://en.m.wikipedia.org/wiki/Busy_waiting
   [slack]: https://slack.com
