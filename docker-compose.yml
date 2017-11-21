@@ -2,7 +2,7 @@
 version: "2"
 
 services:
-  latex:
+  build:
     image: hamroctopus/latex-cmake:3.4.0
     volumes:
       - ".:/data"
