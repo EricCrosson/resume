@@ -93,6 +93,7 @@ Package|Abstract|Version|Stats|Status
 [coinmarketcap-cli] | CLI for [coinmarketcap.com] | [![NPM version](https://badge.fury.io/js/coinmarketcap-cli.svg)](https://npmjs.org/package/coinmarketcap-cli) | [![npm](https://img.shields.io/npm/dt/coinmarketcap-cli.svg)](https://www.npmjs.com/package/coinmarketcap-cli) |
 [discord-coinmarketcap-bot] | Discord bot to query [coinmarketcap.com] | [![NPM version](https://badge.fury.io/js/discord-coinmarketcap-bot.svg)](https://npmjs.org/package/discord-coinmarketcap-bot) | [![npm](https://img.shields.io/npm/dt/discord-coinmarketcap-bot.svg)](https://www.npmjs.com/package/discord-coinmarketcap-bot) |
 [discord-twitter-streaming-bot] | Discord bot to stream tweets | [![NPM version](https://badge.fury.io/js/discord-twitter-streaming-bot.svg)](https://npmjs.org/package/discord-twitter-streaming-bot) | [![npm](https://img.shields.io/npm/dt/discord-twitter-streaming-bot.svg)](https://www.npmjs.com/package/discord-twitter-streaming-bot) |
+[is-doji] | Check if candle qualifies as a doji | [![NPM version](https://badge.fury.io/js/is-doji.svg)](https://npmjs.org/package/is-doji) | [![npm](https://img.shields.io/npm/dt/is-doji.svg)](https://www.npmjs.com/package/is-doji) | [![Build Status](https://travis-ci.org/EricCrosson/is-doji.svg?branch=master)](https://travis-ci.org/EricCrosson/is-doji)
 
   [coinmarketcap.com]: https://coinmarketcap.com
   [coinmarketcap-api]: https://github.com/EricCrosson/coinmarketcap-api
@@ -102,6 +103,7 @@ Package|Abstract|Version|Stats|Status
   [generator-ansible-docker]: https://github.com/EricCrosson/generator-ansible-docker
   [busy-wait]: https://en.m.wikipedia.org/wiki/Busy_waiting
   [slack]: https://slack.com
+  [is-doji]: https://github.com/EricCrosson/is-doji
 
 ### Published PyPI packages
 
