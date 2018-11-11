@@ -51,7 +51,7 @@ pushed by [Travis CI] to the [deliverables branch].
 | [split-and-move]                         | Provides commands to split current window and move cursor to the new pane | [![Version](https://img.shields.io/github/tag/EricCrosson/split-and-move.svg)](https://github.com/EricCrosson/split-and-move/releases)                                                 | [![Build Status](https://travis-ci.org/EricCrosson/split-and-move.svg?branch=master)](https://travis-ci.org/EricCrosson/split-and-move)                                                 |
 | [displaced-yank]                         | Generalized package to yank a string and move point                       | [![Version](https://img.shields.io/github/tag/EricCrosson/displaced-yank.svg)](https://github.com/EricCrosson/displaced-yank/releases)                                                 | [![Build Status](https://travis-ci.org/EricCrosson/displaced-yank.svg?branch=master)](https://travis-ci.org/EricCrosson/displaced-yank)                                                 |
 | [help-extras]                            | Extra help-commands to flush out the fleet                                | [![Version](https://img.shields.io/github/tag/EricCrosson/help-extras.svg)](https://github.com/EricCrosson/help-extras/releases)                                                       | [![Build Status](https://travis-ci.org/EricCrosson/help-extras.svg?branch=master)](https://travis-ci.org/EricCrosson/help-extras)                                                       |
-| [unselectable-buffer]                    | Make a buffer un-selectable with `other-window`                           | [![Version](https://img.shields.io/github/tag/EricCrosson/unselectable-buffer.svg)](https://github.com/EricCrosson/unselectable-buffer/releases)                                       | [![Build Status](https://travis-ci.org/EricCrosson/unselectable-buffer.svg?branch=master)](https://travis-ci.org/EricCrosson/unselectable-buffer)                                       |
+| [unselectable-window-mode]               | Make a window un-selectable with `other-window`                           | [![Version](https://img.shields.io/github/tag/EricCrosson/unselectable-window-mode.svg)](https://github.com/EricCrosson/unselectable-window-mode/releases)                             | [![Build Status](https://travis-ci.org/EricCrosson/unselectable-window-mode.svg?branch=master)](https://travis-ci.org/EricCrosson/unselectable-window-mode)                             |
 | [help-find-org]                          | Advise help functions to show org file if code was tangled                | [![Version](https://img.shields.io/github/tag/EricCrosson/help-find-org.svg)](https://github.com/EricCrosson/help-find-org/releases)                                                   | [![Build Status](https://travis-ci.org/EricCrosson/help-find-org.svg?branch=master)](https://travis-ci.org/EricCrosson/help-find-org)                                                   |
 
   [Pine script]: https://www.tradingview.com/study-script-reference/
@@ -73,7 +73,7 @@ pushed by [Travis CI] to the [deliverables branch].
   [split-and-move]: https://github.com/EricCrosson/split-and-move
   [displaced-yank]: https://github.com/EricCrosson/displaced-yank
   [help-extras]: https://github.com/EricCrosson/help-extras
-  [unselectable-buffer]: https://github.com/EricCrosson/unselectable-buffer
+  [unselectable-window-mode]: https://github.com/EricCrosson/unselectable-window-mode
   [help-find-org]: https://github.com/EricCrosson/help-find-org
 
 ### Git projects
@@ -111,7 +111,7 @@ pushed by [Travis CI] to the [deliverables branch].
   [CI]: https://en.wikipedia.org/wiki/Continuous_integration
   [ansible]: https://github.com/EricCrosson/ansible-docker
 
-### Additional golang packages
+### golang packages
 
 | Package     | Abstract                                     | Version                                                                                                              |
 |-------------|----------------------------------------------|----------------------------------------------------------------------------------------------------------------------|
