@@ -37,10 +37,9 @@ pushed by [Travis CI] to the [deliverables branch].
 
   [Pine script]: https://www.tradingview.com/study-script-reference/
   [Qt]: http://qt-project.org
-
   [bury-successful-compilation]: https://github.com/EricCrosson/bury-successful-compilation
   [unkillable-scratch]: https://github.com/EricCrosson/unkillable-scratch
-  [qt-pro-mode](https://github.com/EricCrosson/qt-pro-mode)
+  [qt-pro-mode]: https://github.com/EricCrosson/qt-pro-mode
   [pine-script-mode]: https://github.com/EricCrosson/pine-script-mode
 
 ### Git projects
