@@ -52,7 +52,8 @@ pushed by [Travis CI] to the [deliverables branch].
 | [displaced-yank]                         | Generalized package to yank a string and move point                       | [![Version](https://img.shields.io/github/tag/EricCrosson/displaced-yank.svg)](https://github.com/EricCrosson/displaced-yank/releases)                                                 | [![Build Status](https://travis-ci.org/EricCrosson/displaced-yank.svg?branch=master)](https://travis-ci.org/EricCrosson/displaced-yank)                                                 |
 | [help-extras]                            | Extra help-commands to flush out the fleet                                | [![Version](https://img.shields.io/github/tag/EricCrosson/help-extras.svg)](https://github.com/EricCrosson/help-extras/releases)                                                       | [![Build Status](https://travis-ci.org/EricCrosson/help-extras.svg?branch=master)](https://travis-ci.org/EricCrosson/help-extras)                                                       |
 | [unselectable-window-mode]               | Make a window un-selectable with `other-window`                           | [![Version](https://img.shields.io/github/tag/EricCrosson/unselectable-window-mode.svg)](https://github.com/EricCrosson/unselectable-window-mode/releases)                             | [![Build Status](https://travis-ci.org/EricCrosson/unselectable-window-mode.svg?branch=master)](https://travis-ci.org/EricCrosson/unselectable-window-mode)                             |
-| [help-find-org-mode]                          | Advise help functions to show org file if code was tangled                | [![Version](https://img.shields.io/github/tag/EricCrosson/help-find-org-mode.svg)](https://github.com/EricCrosson/help-find-org-mode/releases)                                                   | [![Build Status](https://travis-ci.org/EricCrosson/help-find-org-mode.svg?branch=master)](https://travis-ci.org/EricCrosson/help-find-org-mode)                                                   |
+| [help-find-org-mode]                     | Advise help functions to show org file if code was tangled                | [![Version](https://img.shields.io/github/tag/EricCrosson/help-find-org-mode.svg)](https://github.com/EricCrosson/help-find-org-mode/releases)                                         | [![Build Status](https://travis-ci.org/EricCrosson/help-find-org-mode.svg?branch=master)](https://travis-ci.org/EricCrosson/help-find-org-mode)                                         |
+| [theme-manager]                          | Provide user-level abstractions for managing color-themes                 | [![Version](https://img.shields.io/github/tag/EricCrosson/theme-manager.svg)](https://github.com/EricCrosson/theme-manager/releases)                                                   | [![Build Status](https://travis-ci.org/EricCrosson/theme-manager.svg?branch=master)](https://travis-ci.org/EricCrosson/theme-manager)                                                   |
 
   [Pine script]: https://www.tradingview.com/study-script-reference/
   [Qt]: http://qt-project.org
@@ -75,6 +76,7 @@ pushed by [Travis CI] to the [deliverables branch].
   [help-extras]: https://github.com/EricCrosson/help-extras
   [unselectable-window-mode]: https://github.com/EricCrosson/unselectable-window-mode
   [help-find-org-mode]: https://github.com/EricCrosson/help-find-org-mode
+  [theme-manager]: https://github.com/EricCrosson/theme-manager
 
 ### Git projects
 
