@@ -184,7 +184,7 @@ pushed by [Travis CI] to the [deliverables branch].
 | [@strong-roots-capital/ratchet]                        | Filter a stream of values monotonically                                    | [![npm version](https://img.shields.io/npm/v/@strong-roots-capital/ratchet.svg)](https://npmjs.org/package/@strong-roots-capital/ratchet)                                               | [![npm](https://img.shields.io/npm/dt/@strong-roots-capital/ratchet.svg)](https://www.npmjs.com/package/@strong-roots-capital/ratchet)                                               | [![Build Status](https://travis-ci.org/strong-roots-capital/ratchet.svg?branch=master)](https://travis-ci.org/strong-roots-capital/ratchet)                                               |
 
 
-| [Yeoman] generator             | Abstract                                                    | Version                                                                                                                                 | Stats                                                                                                                                |
+| [Yeoman] generators            | Abstract                                                    | Version                                                                                                                                 | Stats                                                                                                                                |
 |--------------------------------|-------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------|
 | [generator-typescript-package] | A generator for best-practice TypeScript packages           | [![npm version](https://img.shields.io/npm/v/generator-typescript-package.svg)](https://npmjs.com/package/generator-typescript-package) | [![npm](https://img.shields.io/npm/dt/generator-typescript-package.svg)](https://www.npmjs.com/package/generator-typescript-package) |
 | [generator-ansible-docker]     | A [yeoman] generator for ansible-maintained docker projects | [![npm version](https://img.shields.io/npm/v/generator-ansible-docker.svg)](https://npmjs.com/package/generator-ansible-docker)         | [![npm](https://img.shields.io/npm/dt/generator-ansible-docker.svg)](https://www.npmjs.com/package/generator-ansible-docker)         |
@@ -198,6 +198,7 @@ pushed by [Travis CI] to the [deliverables branch].
   [coinmarketcap-cli]: https://github.com/EricCrosson/coinmarketcap-cli
   [discord-coinmarketcap-bot]: https://github.com/EricCrosson/discord-coinmarketcap-bot
   [discord-twitter-streaming-bot]: https://github.com/EricCrosson/discord-twitter-streaming-bot
+  [generator-typescript-package]: https://github.com/EricCrosson/generator-typescript-package
   [generator-ansible-docker]: https://github.com/EricCrosson/generator-ansible-docker
   [generator-emacs-package]: https://github.com/EricCrosson/generator-emacs-package
   [busy-wait]: https://en.m.wikipedia.org/wiki/Busy_waiting
