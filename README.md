@@ -171,15 +171,6 @@ pushed by [Travis CI] to the [deliverables branch].
   [barrier]: https://en.wikipedia.org/wiki/Barrier_(computer_science)
   [GNU Bash]: https://www.gnu.org/software/bash/
 
-
-Websites
----------
-
-| Website                                     | Abstract                                         |
-|---------------------------------------------|--------------------------------------------------|
-| [ericcrosson.com](http://ericcrosson.com)   | Developer thoughts without a readme to call home |
-| [Super Tic-Tac-Toe](http://sttt.r2labs.us/) | Semester project for [EE 461L]                   |
-
 Academic work
 -------------
 
