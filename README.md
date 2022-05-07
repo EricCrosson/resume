@@ -1,24 +1,9 @@
-Eric Crosson's Resume [![Build Status](https://travis-ci.org/EricCrosson/resume.svg?branch=master)](https://travis-ci.org/EricCrosson/resume)
-=====================
+# Eric Crosson's Résumé
 
-To build this project, follow normal cmake rules (outlined below)
+![Build Status](https://github.com/EricCrosson/resume/actions/workflows/ci.yml/badge.svg?branch=master)
 
-```sh
-git clone --depth 1 https://github.com/EricCrosson/resume.git  # clone the repository
-cd resume && mkdir build                                       # make build dir
-cd build && cmake ..                                           # cmake in build dir
-make
-```
+[Rendered PDF](https://github.com/EricCrosson/resume/blob/deliverables/Eric_Crosson_Resume.pdf)
 
-or, if you are familiar with docker, run the following from the root of this
-    repo
+You've found the `deliverables` branch! This branch is automatically maintained by GitHub Actions.
 
-```sh
-docker run -tv $(pwd):/data hamroctopus/latex-cmake
-```
-
-documents are in `/build/doc-bin`, and automatically pushed by [Travis CI] to
-the [deliverables branch].
-
-  [Travis CI]: https://travis-ci.org/
-  [deliverables branch]: https://github.com/EricCrosson/resume/blob/deliverables/resume.pdf
+You may find my most-recent résumé in PDF form at the link above.
