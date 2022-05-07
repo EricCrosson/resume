@@ -1,6 +1,6 @@
 # Eric Crosson's Résumé
 
-![Build Status](https://github.com/EricCrosson/resume/actions/workflows/ci.yml/badge.svg?branch=master)
+![Build Status](https://github.com/EricCrosson/resume/actions/workflows/ci.yaml/badge.svg?branch=master)
 
 [Rendered PDF](https://github.com/EricCrosson/resume/blob/deliverables/Eric_Crosson_Resume.pdf)
 
