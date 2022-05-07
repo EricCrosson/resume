@@ -37,9 +37,10 @@ jobs:
           path: Eric_Crosson_Resume.pdf
 
   upload:
-    if: github.ref == 'refs/heads/master'
-    
     runs-on: ubuntu-latest
+    if: github.ref == 'refs/heads/master'
+    needs:
+      - build
     
     steps:
 
