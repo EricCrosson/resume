@@ -1,0 +1,97 @@
+% Written by Eric Crosson
+% Started 2013-09-03
+
+\documentclass{report}
+\usepackage[left=.68in,right=.68in,bottom=.48in,top=.58in]{geometry}
+\usepackage{paracol}
+\usepackage{graphicx}
+\usepackage{enumitem}
+
+\newcommand{\cut}{\begin{center} \line(1,0){510} \end{center}}
+
+\begin{document}
+\pagestyle{empty}
+\setlength\parindent{0pt}
+
+% TODO: hyperlink to github
+\begin{center}
+  \textbf{Eric S. Crosson} \\
+  2028 E Ben White Blvd \#240-4104 Austin, TX 78741 \\
+  (360) 820 - 8196 $\cdot$ esc@ericcrosson.com $\cdot$ github.com/ericcrosson
+\end{center}
+
+\textbf{Interests}
+\begin{itemize}[label=$\cdot$]
+\item Making complexity approachable
+\item Type theory, static analysis, functional programming, formal verification, technical writing
+\item Reproducible research, builds, and deployments
+\end{itemize}
+
+\cut{}
+
+\textbf{Qualifications}
+\begin{itemize}[label=$\cdot$]
+% \item 19 years experience programming, 13 professionally
+\item Expertise with TypeScript, Node.js, Unix, Docker, Bash, GNU Make, git, Lisp, \LaTeX{}
+\item Familiar with Rust, Kubernetes, AWS, Terraform, NoSQL, Go, C/C++, Python, Ruby, Haskell, TLA+, ACL2
+\item Looking forward to deeper mastery of Nix
+\end{itemize}
+
+\cut{}
+
+\textbf{Recent Work Experience}
+\begin{itemize}[label=]
+
+\item \textbf{BitGo -- Engineering Manager, Internal Tools} (2021 - Today)
+  \begin{itemize}[label=$\circ$]
+  \item Created microservices build system, scaling 30 engineers to 250, 5 services to 72, reducing build time 98.5\%
+  \item Created api-ts for type- and runtime- safe APIs, reducing production issues by 97\% over 1 year
+  \end{itemize}
+
+\item \textbf{BitGo -- Senior Software Engineer, Prime} (2020 - 2021)
+  \begin{itemize}[label=$\circ$]
+  \item Created risk-management engine for margin trading in Go, increasing trade volume 100x
+  \item Integrated trade engine with 4 add'l liquidity providers, increasing limit order-book depth 68\% over 100 bps
+  \item Introduced functional programming in TypeScript (fp-ts), now used on 6 teams
+  \end{itemize}
+
+\item \textbf{Strong Roots Capital -- Chief Technology Officer, Founder} (2018 - Today)
+  \begin{itemize}[label=$\circ$]
+  \item Created platform for quantitative research and execution of systematic trading strategies
+  \item Automated regime-dependent strategies for providing liquidity, trend-following, and mean-reversion
+  \item TypeScript/Node.js microservice architecture on AWS using immutable infrastructure-as-code
+  \end{itemize}
+
+\item \textbf{ShoreTel -- Embedded Software Engineer} (2016 - 2018)
+  \begin{itemize}[label=$\circ$]
+  \item Architected next-gen embedded C++ phone firmware, reducing race conditions by 100\%
+  \item Created custom Linux distribution for in-house hardware with yocto, eliminating 1-day exploits
+  \item Created on-premise GitLab \& CI cluster with ansible \& docker, reducing CI execution time by 96\%
+  \end{itemize}
+
+\item \textbf{IBM -- Cloud Infrastructure Engineer} (2015 - 2016)
+  \begin{itemize}[label=$\circ$]
+  \item Developed public API for customers to provision and manage OpenStack cloud resources
+  \item Scaled with 60\% customer growth and 400\% increase in managed servers, using Python and OpenStack
+  \end{itemize}
+
+\item \textbf{Intel -- Pre and Post Silicon Validation Engineer} (2014 - 2015)
+  \begin{itemize}[label=$\circ$]
+  \item Created signal analysis tool for 3\textsuperscript{rd} party DHCP RTL in Lisp, accelerating integration timeline by 15\%
+  \end{itemize}
+
+\item \textbf{Centaur Technology -- Design \& Performance Verification Engineer} (2013 - 2014)
+  \begin{itemize}[label=$\circ$]
+  \item Invariant-based verification of multi-core PSE-36/PAE caching over 3 major architecture releases in Ruby
+  \end{itemize}
+
+\end{itemize}
+
+\cut{}
+
+\textbf{Educational History}
+\begin{itemize}[label=$\cdot$]
+\item \textbf{University of Texas} Bachelor of Science in ECE (Computer Architecture and Embedded Systems), May 2016
+\end{itemize}
+
+\end{document}
