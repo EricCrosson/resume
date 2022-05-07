@@ -84,11 +84,9 @@ nix-shell --run make
 | -------- | -------------- | -------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------- |
 | bash     | [captain-hook] | Upgrade a git hook from a script into a [conf.d](http://blog.siphos.be/2013/05/the-linux-d-approach/)-style pipeline | [![Version](https://img.shields.io/github/tag/git-hook/captain-hook.svg)](https://github.com/git-hook/captain-hook/releases) | [![Build Status](https://travis-ci.org/git-hook/captain-hook.svg?branch=master)](https://travis-ci.org/git-hook/captain-hook) |
 | bash     | [post-clone]   | Implementation of a post-clone hook                                                                                  | [![Version](https://img.shields.io/github/tag/git-hook/post-clone.svg)](https://github.com/git-hook/post-clone/releases)     |                                                                                                                               |
-| bash     | [git-ledger]   | Track local git clones                                                                                               | [![Version](https://img.shields.io/github/tag/git-hook/git-ledger.svg)](https://github.com/git-hook/git-ledger/releases)     | [![Build status](https://travis-ci.org/git-hook/git-ledger.svg?branch=master)](https://travis-ci.org/git-hook/git-ledger)     |
 
 [captain-hook]: https://github.com/git-hook/captain-hook
 [post-clone]: https://github.com/git-hook/post-clone
-[git-ledger]: https://github.com/git-hook/git-ledger
 
 ### Synchronization packages
 
