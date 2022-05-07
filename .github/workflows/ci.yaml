@@ -47,14 +47,13 @@ jobs:
 
       - name: Checkout
         uses: actions/checkout@v3
+        with:
+          ref: deliverables
 
       - name: Download Resume
         uses: actions/download-artifact@v3
         with:
           name: eric-crosson-resume
-
-      - name: Checkout deliverables branch
-        run: git checkout deliverables || git checkout --orphan deliverables
 
       - name: Publish Resume
         uses: EndBug/add-and-commit@v9
