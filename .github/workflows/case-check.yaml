@@ -1,0 +1,22 @@
+name: Case Check
+
+on:
+  pull_request:
+
+jobs:
+  check-capitalization:
+
+    runs-on: ubuntu-latest
+
+    steps:
+
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: Install case-police
+        run: |
+          npm init -y
+          npm install case-police@0.5.3
+
+      - name: Check capitaliztion
+        run: npx case-police
