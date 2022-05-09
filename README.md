@@ -76,7 +76,7 @@ nix-shell --run make
 
 | Package                                       | Abstract                   | Version                                                                                                | Status                                                                                                             |
 | --------------------------------------------- | -------------------------- | ------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------ |
-| [stump](https://github.com/EricCrosson/stump) | A painless logging-utility | [![Current Version](https://img.shields.io/pypi/v/stump.svg)](https://pypi.python.org/pypi/stump/0.12) | [![Travis CI](https://travis-ci.org/EricCrosson/stump.svg?branch=master)](https://travis-ci.org/EricCrosson/stump) |
+| [stump](https://github.com/EricCrosson/stump) | A painless logging utility | [![Current Version](https://img.shields.io/pypi/v/stump.svg)](https://pypi.python.org/pypi/stump/0.12) | [![Travis CI](https://travis-ci.org/EricCrosson/stump.svg?branch=master)](https://travis-ci.org/EricCrosson/stump) |
 
 ### Git projects
 
