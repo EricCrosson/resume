@@ -3,9 +3,10 @@
 
 \documentclass{report}
 \usepackage[left=.68in,right=.68in,bottom=.48in,top=.58in]{geometry}
-\usepackage{paracol}
-\usepackage{graphicx}
 \usepackage{enumitem}
+\usepackage{graphicx}
+\usepackage{hyperref}
+\usepackage{paracol}
 
 \newcommand{\cut}{\begin{center} \line(1,0){510} \end{center}}
 
@@ -17,14 +18,14 @@
 \begin{center}
   \textbf{Eric S. Crosson} \\
   2028 E Ben White Blvd \#240-4104 Austin, TX 78741 \\
-  (360) 820 - 8196 $\cdot$ esc@ericcrosson.com $\cdot$ github.com/ericcrosson
+  (360) 820 - 8196 $\cdot$ esc@ericcrosson.com $\cdot$ \href{https://github.com/EricCrosson}{github.com/ericcrosson}
 \end{center}
 
 \textbf{Interests}
 \begin{itemize}[label=$\cdot$]
 \item Making complexity approachable
 \item Type theory, static analysis, functional programming, immutability, formal verification, technical writing
-\item Reproducible research, builds, and deployments; experimentation in production
+\item Reproducible builds and deployments, experimentation in production
 \end{itemize}
 
 \cut{}
@@ -45,7 +46,7 @@
 \item \textbf{BitGo -- Engineering Manager, Internal Tools} (2021 - Today)
   \begin{itemize}[label=$\circ$]
   \item Created microservices build system, scaling 30 engineers to 250, 5 services to 72, reducing build time 98.5\%
-  \item Created api-ts for type- and runtime- safe APIs, reducing production issues by 97\% over 1 year
+  \item Created \href{https://github.com/BitGo/api-ts}{api-ts} for type- and runtime- safe APIs, reducing production issues by 97\% over 1 year
   \end{itemize}
 
 \item \textbf{BitGo -- Senior Software Engineer, Prime} (2020 - 2021)
