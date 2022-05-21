@@ -13,6 +13,7 @@ stdenv.mkDerivation {
         
         # LaTeX packages here
         enumitem
+        hyperref
         paracol
 
         # build tools
