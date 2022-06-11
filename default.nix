@@ -8,7 +8,9 @@ in {
     src = ./.;
     hooks = {
       alejandra.enable = true;
+      hunspell.enable = true;
       nix-linter.enable = true;
+      prettier.enable = true;
     };
   };
 }

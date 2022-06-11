@@ -30,6 +30,7 @@ pkgs.stdenv.mkDerivation {
   };
 
   shellHook = ''
+    export WORDLIST=$PWD/hunspell/dictionary.txt
     ${(import ./default.nix).pre-commit-check.shellHook}
   '';
 }

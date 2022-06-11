@@ -110,7 +110,7 @@ encouraged by the advising professor.
 | --------- | ----------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------- |
 | [EE 445M] | Build a Real-Time Operating System from scratch                               |                                                                                                                           |
 | [EE 360P] | Formally prove several distributed mutual exclusion algorithms with [Promela] | [![Build Status](https://travis-ci.org/stormosson/camelot.svg?branch=develop)](https://travis-ci.org/stormosson/camelot)  |
-| [EE 360T] | Sotware Design and Testing Lab                                                | [![Build Status](https://travis-ci.org/EricCrosson/EE-360T.svg?branch=master)](https://travis-ci.org/EricCrosson/EE-360T) |
+| [EE 360T] | Software Design and Testing Lab                                               | [![Build Status](https://travis-ci.org/EricCrosson/EE-360T.svg?branch=master)](https://travis-ci.org/EricCrosson/EE-360T) |
 
 [ee 461l]: http://www.ece.utexas.edu/undergraduate/courses/461l
 [ee 445m]: https://github.com/hershic/ee445m-labs
