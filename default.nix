@@ -1,34 +1,14 @@
-{ sources ? import ./nix/sources.nix # https://nix.dev/tutorials/towards-reproducibility-pinning-nixpkgs.html#dependency-management-with-niv
-, pkgs ? import sources.nixpkgs {}   # Use the pinned sources
-}:
-
-with pkgs;
-
-stdenv.mkDerivation {
-  name = "mydoc";
-  buildInputs = [
-    (texlive.combine {
-      inherit (texlive)
-        scheme-small
-        
-        # LaTeX packages here
-        enumitem
-        hyperref
-        paracol
-
-        # build tools
-        latexmk
-        ;
-    })
-    glibcLocales
-  ];
-
-  src = ./.;
-  buildPhase = "make";
-
-  meta = with lib; {
-    description = "Eric Crosson's Résumé";
-    license = licenses.isc;
-    platforms = platforms.linux;
+let
+  nix-pre-commit-hooks = import (builtins.fetchTarball {
+    url = "https://github.com/cachix/pre-commit-hooks.nix/tarball/master";
+    sha256 = "16qfrylk41r7gc7g4352hxz7b3vk9w7bc6893apmmr6yy08ra0m9";
+  });
+in {
+  pre-commit-check = nix-pre-commit-hooks.run {
+    src = ./.;
+    hooks = {
+      alejandra.enable = true;
+      nix-linter.enable = true;
+    };
   };
 }
