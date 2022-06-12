@@ -31,7 +31,8 @@
             src = ./.;
             hooks = {
               alejandra.enable = true;
-              hunspell.enable = true;
+              # Disabled until https://github.com/cachix/pre-commit-hooks.nix/issues/149
+              # hunspell.enable = true;
               nix-linter.enable = true;
               prettier.enable = true;
             };
@@ -40,7 +41,6 @@
 
         devShell = nixpkgs.legacyPackages.${system}.mkShell {
           shellHook = ''
-            export DICTIONARY=en_US
             export WORDLIST=$PWD/hunspell/dictionary.txt
             ${(self.checks.${system}).pre-commit-check.shellHook}
           '';
