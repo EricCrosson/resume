@@ -7,7 +7,7 @@
 To build the LaTeX document, run
 
 ```sh
-nix-shell --run make
+nix build
 ```
 
 ---
