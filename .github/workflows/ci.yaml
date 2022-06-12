@@ -8,43 +8,32 @@ on:
 
 jobs:
   build:
-
     runs-on: ubuntu-latest
 
     steps:
-
       - name: Checkout
         uses: actions/checkout@v3
-      
+
       - name: Install Nix
         uses: cachix/install-nix-action@v16
-        with:
-          nix_path: 'nixpkgs=./nix'
-
-      - name: Install niv
-        uses: cachix/cachix-action@v10
-        with:
-          name: niv
 
       - name: Build LaTeX
-        run: nix-shell --run make
+        run: nix build
 
       - name: Upload Resume
         uses: actions/upload-artifact@v3
         if: github.ref == 'refs/heads/master'
         with:
           name: eric-crosson-resume
-          path: Eric_Crosson_Resume.pdf
+          path: result/Eric_Crosson_Resume.pdf
 
   upload:
-
     runs-on: ubuntu-latest
     if: github.ref == 'refs/heads/master'
     needs:
       - build
 
     steps:
-
       - name: Checkout
         uses: actions/checkout@v3
         with:
