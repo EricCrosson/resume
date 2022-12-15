@@ -61,17 +61,6 @@ nix build
 [ci]: https://en.wikipedia.org/wiki/Continuous_integration
 [ansible]: https://github.com/EricCrosson/ansible-docker
 
-### Go packages
-
-| Package     | Abstract                                     | Version                                                                                                              |
-| ----------- | -------------------------------------------- | -------------------------------------------------------------------------------------------------------------------- |
-| [dsync]     | Synchronize Docker images without a registry | [![Version](https://img.shields.io/github/tag/ericcrosson/dsync.svg)](https://github.com/ericcrosson/dsync/releases) |
-| [confluent] | Become fluent with [Confluence]              | [![Version](https://img.shields.io/github/tag/ericcrosson/dsync.svg)](https://github.com/ericcrosson/dsync/releases) |
-
-[dsync]: https://github.com/ericcrosson/dsync
-[confluent]: https://github.com/ericcrosson/confluent
-[confluence]: https://www.atlassian.com/software/confluence
-
 ### PyPI packages
 
 | Package                                       | Abstract                   | Version                                                                                                | Status                                                                                                             |
