@@ -61,12 +61,6 @@ nix build
 [ci]: https://en.wikipedia.org/wiki/Continuous_integration
 [ansible]: https://github.com/EricCrosson/ansible-docker
 
-### PyPI packages
-
-| Package                                       | Abstract                   | Version                                                                                                | Status                                                                                                             |
-| --------------------------------------------- | -------------------------- | ------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------ |
-| [stump](https://github.com/EricCrosson/stump) | A painless logging utility | [![Current Version](https://img.shields.io/pypi/v/stump.svg)](https://pypi.python.org/pypi/stump/0.12) | [![Travis CI](https://travis-ci.org/EricCrosson/stump.svg?branch=master)](https://travis-ci.org/EricCrosson/stump) |
-
 ### Git projects
 
 | Project        | Abstract                                                                                                             | Version                                                                                                                      | Status                                                                                                                        |
