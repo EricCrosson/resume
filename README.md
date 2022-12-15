@@ -71,18 +71,6 @@ nix build
 [captain-hook]: https://github.com/git-hook/captain-hook
 [post-clone]: https://github.com/git-hook/post-clone
 
-### Synchronization packages
-
-| Package             | Abstract                                   | Version                                                                                                                                    |
-| ------------------- | ------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------ |
-| [QSignalAggregator] | Synchronization [barrier] for [Qt] signals | [![GitHub release](https://img.shields.io/github/tag/EricCrosson/QSignalAggregator.svg)](https://github.com/EricCrosson/QSignalAggregator) |
-| [bash-barrier]      | Synchronization [barrier] for [GNU Bash]   |                                                                                                                                            |
-
-[qsignalaggregator]: https://github.com/EricCrosson/QSignalAggregator
-[bash-barrier]: https://github.com/EricCrosson/bash-barrier
-[barrier]: https://en.wikipedia.org/wiki/Barrier_(computer_science)
-[gnu bash]: https://www.gnu.org/software/bash/
-
 ## Academic work
 
 School work has not been published in an effort to keep the University of Texas'
