@@ -93,7 +93,7 @@ nix build
 | Package             | Abstract                                   | Version                                                                                                                                    |
 | ------------------- | ------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------ |
 | [QSignalAggregator] | Synchronization [barrier] for [Qt] signals | [![GitHub release](https://img.shields.io/github/tag/EricCrosson/QSignalAggregator.svg)](https://github.com/EricCrosson/QSignalAggregator) |
-| [bash-barrier]      | Synchronization [barrier] for [GNU Bash]   | [![GitHub release](https://img.shields.io/github/tag/EricCrosson/bash-barrier.svg)](https://github.com/EricCrosson/bash-barrier)           |
+| [bash-barrier]      | Synchronization [barrier] for [GNU Bash]   |                                                                                                                                            |
 
 [qsignalaggregator]: https://github.com/EricCrosson/QSignalAggregator
 [bash-barrier]: https://github.com/EricCrosson/bash-barrier
