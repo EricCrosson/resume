@@ -47,7 +47,7 @@
         };
 
         packages = {
-          document = pkgs.stdenvNoCC.mkDerivation rec {
+          document = pkgs.stdenvNoCC.mkDerivation {
             name = "Eric_Crosson_Resume";
             src = self;
             phaes = ["unpackPhase" "buildPhase" "installPhase"];
