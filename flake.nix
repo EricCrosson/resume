@@ -1,8 +1,13 @@
 {
   description = "Eric Crosson's Résumé";
 
-  inputs.flake-utils.url = "github:numtide/flake-utils";
-  inputs.pre-commit-hooks.url = "github:cachix/pre-commit-hooks.nix";
+  inputs = {
+    flake-utils.url = "github:numtide/flake-utils";
+    pre-commit-hooks = {
+      url = "github:cachix/pre-commit-hooks.nix";
+      inputs.flake-utils.follows = "flake-utils";
+    };
+  };
 
   outputs = {
     self,
@@ -18,10 +23,12 @@
             (pkgs.texlive)
             scheme-small
             # LaTeX packages here
+            
             enumitem
             hyperref
             paracol
             # build tools
+            
             latexmk
             ;
         };
