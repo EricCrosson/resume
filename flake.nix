@@ -30,6 +30,7 @@
           pre-commit-check = pre-commit-hooks.lib.${system}.run {
             src = ./.;
             hooks = {
+              actionlint.enable = true;
               alejandra.enable = true;
               # Disabled until https://github.com/cachix/pre-commit-hooks.nix/issues/149
               # hunspell.enable = true;
