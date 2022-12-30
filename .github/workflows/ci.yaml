@@ -1,3 +1,4 @@
+---
 name: CI
 
 on:
@@ -25,7 +26,7 @@ jobs:
       # https://github.com/actions/upload-artifact/issues/92#issuecomment-1080347032
       - name: Prepare Upload
         if: github.ref == 'refs/heads/master'
-        run: echo "UPLOAD_PATH=$(readlink -f result/Eric_Crosson_Resume.pdf)" >> $GITHUB_ENV
+        run: echo "UPLOAD_PATH=$(readlink -f result/Eric_Crosson_Resume.pdf)" >> "$GITHUB_ENV"
 
       - name: Upload Resume
         uses: actions/upload-artifact@v3

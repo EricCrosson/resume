@@ -2,22 +2,35 @@
   description = "Eric Crosson's Résumé";
 
   inputs = {
-    flake-utils.url = "github:numtide/flake-utils";
+    nixpkgs.url = "github:nixos/nixpkgs/nixos-unstable";
+    flake-parts = {
+      url = "github:hercules-ci/flake-parts";
+      inputs.nixpkgs-lib.follows = "nixpkgs";
+    };
     pre-commit-hooks = {
       url = "github:cachix/pre-commit-hooks.nix";
-      inputs.flake-utils.follows = "flake-utils";
+      inputs.nixpkgs.follows = "nixpkgs";
     };
   };
 
-  outputs = {
+  outputs = inputs @ {
     self,
+    flake-parts,
     nixpkgs,
     pre-commit-hooks,
-    flake-utils,
   }:
-    flake-utils.lib.eachDefaultSystem (
-      system: let
-        pkgs = nixpkgs.legacyPackages.${system};
+    flake-parts.lib.mkFlake {inherit inputs;} {
+      systems = [
+        "aarch64-darwin"
+        "x86_64-darwin"
+        "x86_64-linux"
+      ];
+
+      perSystem = {
+        pkgs,
+        system,
+        ...
+      }: let
         tex = pkgs.texlive.combine {
           inherit
             (pkgs.texlive)
@@ -33,32 +46,32 @@
             ;
         };
       in rec {
+        formatter = pkgs.alejandra;
+
         checks = {
           pre-commit-check = pre-commit-hooks.lib.${system}.run {
             src = ./.;
             hooks = {
               actionlint.enable = true;
               alejandra.enable = true;
-              # Disabled until https://github.com/cachix/pre-commit-hooks.nix/issues/149
-              # hunspell.enable = true;
-              nix-linter.enable = true;
               prettier.enable = true;
+              statix.enable = true;
             };
           };
         };
 
-        devShell = nixpkgs.legacyPackages.${system}.mkShell {
+        devShells.default = nixpkgs.legacyPackages.${system}.mkShell {
           shellHook = ''
-            export WORDLIST=$PWD/hunspell/dictionary.txt
-            ${(self.checks.${system}).pre-commit-check.shellHook}
+            ${self.checks.${system}.pre-commit-check.shellHook}
           '';
         };
 
         packages = {
+          default = packages.document;
           document = pkgs.stdenvNoCC.mkDerivation {
             name = "Eric_Crosson_Resume";
             src = self;
-            phaes = ["unpackPhase" "buildPhase" "installPhase"];
+            phases = ["unpackPhase" "buildPhase" "installPhase"];
             buildInputs = [pkgs.coreutils pkgs.glibcLocales tex];
             buildPhase = "make";
             installPhase = ''
@@ -67,8 +80,6 @@
             '';
           };
         };
-
-        defaultPackage = packages.document;
-      }
-    );
+      };
+    };
 }
