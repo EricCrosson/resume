@@ -28,13 +28,13 @@ nix build
 
 ### GNU Emacs packages
 
-| MELPA package                 | Abstract                                                   | Version                                                                                                                                            | Status                                                                                                                                                            |
-| ----------------------------- | ---------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [bury-successful-compilation] | Bury the \*compilation\* buffer after success              | [![MELPA Stable](https://stable.melpa.org/packages/bury-successful-compilation-badge.svg)](https://stable.melpa.org/#/bury-successful-compilation) | [![Build Status](https://travis-ci.org/EricCrosson/bury-successful-compilation.svg?branch=master)](https://travis-ci.org/EricCrosson/bury-successful-compilation) |
-| [unkillable-scratch]          | Prevent the \*scratch\* buffer from being killed           | [![MELPA Stable](https://stable.melpa.org/packages/unkillable-scratch-badge.svg)](http://melpa.org/#/unkillable-scratch)                           | [![Travis CI](https://travis-ci.org/EricCrosson/unkillable-scratch.svg?branch=master)](https://travis-ci.org/EricCrosson/unkillable-scratch)                      |
-| [qt-pro-mode]                 | Provide a major-mode for [Qt] build-system files           | [![MELPA Stable](https://stable.melpa.org/packages/qt-pro-mode-badge.svg)](https://melpa.org/#/qt-pro-mode)                                        | [![Build Status](https://travis-ci.org/EricCrosson/qt-pro-mode.svg?branch=master)](https://travis-ci.org/EricCrosson/qt-pro-mode)                                 |
-| [pine-script-mode]            | Provide a major-mode for Trading View [Pine script]        | [![MELPA Stable](https://stable.melpa.org/packages/pine-script-mode-badge.svg)](https://melpa.org/#/pine-script-mode)                              | [![Build Status](https://travis-ci.org/EricCrosson/pine-script-mode.svg?branch=master)](https://travis-ci.org/EricCrosson/pine-script-mode)                       |
-| [help-find-org-mode]          | Advise help functions to show org file if code was tangled | [![MELPA Stable](https://stable.melpa.org/packages/help-find-org-mode-badge.svg)](https://melpa.org/#/help-find-org-mode)                          | [![Build Status](https://travis-ci.org/EricCrosson/help-find-org-mode.svg?branch=master)](https://travis-ci.org/EricCrosson/help-find-org-mode)                   |
+| MELPA package                 | Abstract                                                   | Version                                                                                                                                            |
+| ----------------------------- | ---------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [bury-successful-compilation] | Bury the \*compilation\* buffer after success              | [![MELPA Stable](https://stable.melpa.org/packages/bury-successful-compilation-badge.svg)](https://stable.melpa.org/#/bury-successful-compilation) |
+| [unkillable-scratch]          | Prevent the \*scratch\* buffer from being killed           | [![MELPA Stable](https://stable.melpa.org/packages/unkillable-scratch-badge.svg)](http://melpa.org/#/unkillable-scratch)                           |
+| [qt-pro-mode]                 | Provide a major-mode for [Qt] build-system files           | [![MELPA Stable](https://stable.melpa.org/packages/qt-pro-mode-badge.svg)](https://melpa.org/#/qt-pro-mode)                                        |
+| [pine-script-mode]            | Provide a major-mode for Trading View [Pine script]        | [![MELPA Stable](https://stable.melpa.org/packages/pine-script-mode-badge.svg)](https://melpa.org/#/pine-script-mode)                              |
+| [help-find-org-mode]          | Advise help functions to show org file if code was tangled | [![MELPA Stable](https://stable.melpa.org/packages/help-find-org-mode-badge.svg)](https://melpa.org/#/help-find-org-mode)                          |
 
 [pine script]: https://www.tradingview.com/study-script-reference/
 [qt]: http://qt-project.org
@@ -43,47 +43,3 @@ nix build
 [qt-pro-mode]: https://github.com/EricCrosson/qt-pro-mode
 [pine-script-mode]: https://github.com/EricCrosson/pine-script-mode
 [help-find-org-mode]: https://github.com/EricCrosson/help-find-org-mode
-
-### Docker containers
-
-| Container                                                      | Abstract                                                                                               | Stats                                                                                                                                  | Status                                                                                                                                        |
-| -------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------- |
-| [spin]                                                         | Provide a [Promela] development environment                                                            | [![Dockerhub Stats](https://img.shields.io/docker/pulls/hamroctopus/spin.svg)](https://hub.docker.com/r/hamroctopus/spin/)             | [![Build Status](https://travis-ci.org/EricCrosson/spin.svg?branch=travis-ci)](https://travis-ci.org/EricCrosson/spin)                        |
-| [graphviz]                                                     | Provide a build environment for dot files using graphviz 2.38.0                                        | [![Dockerhub Stats](https://img.shields.io/docker/pulls/hamroctopus/graphviz.svg)](https://hub.docker.com/r/hamroctopus/graphviz/)     | [![Build Status](https://travis-ci.org/EricCrosson/graphviz.svg?branch=graphviz)](https://travis-ci.org/EricCrosson/graphviz)                 |
-| [serverspec]                                                   | Provide a test environment with serverspec                                                             | [![Dockerhub Stats](https://img.shields.io/docker/pulls/hamroctopus/serverspec.svg)](https://hub.docker.com/r/hamroctopus/serverspec/) | [![Build Status](https://travis-ci.org/EricCrosson/docker-serverspec.svg?branch=master)](https://travis-ci.org/EricCrosson/docker-serverspec) |
-| [shellcheck](https://github.com/ericcrosson/docker-shellcheck) | Provide a [shellcheck](https://github.com/koalaman/shellcheck) environment compatible with [GitLab CI] | [![Docker Pulls](https://img.shields.io/docker/pulls/hamroctopus/shellcheck.svg)](https://hub.docker.com/r/hamroctopus/shellcheck/)    |                                                                                                                                               |
-
-[promela]: https://en.m.wikipedia.org/wiki/Promela
-[spin]: https://github.com/ericcrosson/spin
-[graphviz]: https://github.com/ericcrosson/graphviz
-[serverspec]: https://github.com/ericcrosson/docker-serverspec
-[gitlab ci]: https://about.gitlab.com/features/gitlab-ci-cd/
-[ci]: https://en.wikipedia.org/wiki/Continuous_integration
-[ansible]: https://github.com/EricCrosson/ansible-docker
-
-### Git projects
-
-| Project        | Abstract                                                                                                             | Version                                                                                                                      | Status                                                                                                                        |
-| -------------- | -------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------- |
-| [captain-hook] | Upgrade a git hook from a script into a [conf.d](http://blog.siphos.be/2013/05/the-linux-d-approach/)-style pipeline | [![Version](https://img.shields.io/github/tag/git-hook/captain-hook.svg)](https://github.com/git-hook/captain-hook/releases) | [![Build Status](https://travis-ci.org/git-hook/captain-hook.svg?branch=master)](https://travis-ci.org/git-hook/captain-hook) |
-| [post-clone]   | Implementation of a post-clone hook                                                                                  | [![Version](https://img.shields.io/github/tag/git-hook/post-clone.svg)](https://github.com/git-hook/post-clone/releases)     |                                                                                                                               |
-
-[captain-hook]: https://github.com/git-hook/captain-hook
-[post-clone]: https://github.com/git-hook/post-clone
-
-## Academic work
-
-School work has not been published in an effort to keep the University of Texas'
-course materials reasonably hidden from current and future students, unless
-encouraged by the advising professor.
-
-| Course    | Abstract                                                                      | Status                                                                                                                    |
-| --------- | ----------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------- |
-| [EE 445M] | Build a Real-Time Operating System from scratch                               |                                                                                                                           |
-| [EE 360P] | Formally prove several distributed mutual exclusion algorithms with [Promela] | [![Build Status](https://travis-ci.org/stormosson/camelot.svg?branch=develop)](https://travis-ci.org/stormosson/camelot)  |
-| [EE 360T] | Software Design and Testing Lab                                               | [![Build Status](https://travis-ci.org/EricCrosson/EE-360T.svg?branch=master)](https://travis-ci.org/EricCrosson/EE-360T) |
-
-[ee 461l]: http://www.ece.utexas.edu/undergraduate/courses/461l
-[ee 445m]: https://github.com/hershic/ee445m-labs
-[ee 360p]: https://github.com/stormosson/camelot
-[ee 360t]: https://github.com/EricCrosson/EE-360T
