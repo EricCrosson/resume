@@ -38,6 +38,8 @@
 
     devShells = forEachSystem (system: {
       default = nixpkgs.legacyPackages.${system}.mkShell {
+        inputsFrom = [self.packages.${system}.document];
+
         shellHook = ''
           ${self.checks.${system}.pre-commit-check.shellHook}
         '';
