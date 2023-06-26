@@ -28,18 +28,13 @@ nix build
 
 ### GNU Emacs packages
 
-| MELPA package                 | Abstract                                                   | Version                                                                                                                                            |
-| ----------------------------- | ---------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [bury-successful-compilation] | Bury the \*compilation\* buffer after success              | [![MELPA Stable](https://stable.melpa.org/packages/bury-successful-compilation-badge.svg)](https://stable.melpa.org/#/bury-successful-compilation) |
-| [unkillable-scratch]          | Prevent the \*scratch\* buffer from being killed           | [![MELPA Stable](https://stable.melpa.org/packages/unkillable-scratch-badge.svg)](http://melpa.org/#/unkillable-scratch)                           |
-| [qt-pro-mode]                 | Provide a major-mode for [Qt] build-system files           | [![MELPA Stable](https://stable.melpa.org/packages/qt-pro-mode-badge.svg)](https://melpa.org/#/qt-pro-mode)                                        |
-| [pine-script-mode]            | Provide a major-mode for Trading View [Pine script]        | [![MELPA Stable](https://stable.melpa.org/packages/pine-script-mode-badge.svg)](https://melpa.org/#/pine-script-mode)                              |
-| [help-find-org-mode]          | Advise help functions to show org file if code was tangled | [![MELPA Stable](https://stable.melpa.org/packages/help-find-org-mode-badge.svg)](https://melpa.org/#/help-find-org-mode)                          |
+| MELPA package                 | Abstract                                            | Version                                                                                                                                            |
+| ----------------------------- | --------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [bury-successful-compilation] | Bury the \*compilation\* buffer after success       | [![MELPA Stable](https://stable.melpa.org/packages/bury-successful-compilation-badge.svg)](https://stable.melpa.org/#/bury-successful-compilation) |
+| [unkillable-scratch]          | Prevent the \*scratch\* buffer from being killed    | [![MELPA Stable](https://stable.melpa.org/packages/unkillable-scratch-badge.svg)](http://melpa.org/#/unkillable-scratch)                           |
+| [pine-script-mode]            | Provide a major-mode for Trading View [Pine script] | [![MELPA Stable](https://stable.melpa.org/packages/pine-script-mode-badge.svg)](https://melpa.org/#/pine-script-mode)                              |
 
 [pine script]: https://www.tradingview.com/study-script-reference/
-[qt]: http://qt-project.org
 [bury-successful-compilation]: https://github.com/EricCrosson/bury-successful-compilation
 [unkillable-scratch]: https://github.com/EricCrosson/unkillable-scratch
-[qt-pro-mode]: https://github.com/EricCrosson/qt-pro-mode
 [pine-script-mode]: https://github.com/EricCrosson/pine-script-mode
-[help-find-org-mode]: https://github.com/EricCrosson/help-find-org-mode
