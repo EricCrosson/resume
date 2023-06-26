@@ -22,19 +22,10 @@
 
 \textbf{Interests}
 \begin{itemize}[label=$\cdot$]
+\item Helping high-performing engineers perform better
 \item Making complexity approachable
-\item Type theory, static analysis, functional programming, immutability, formal verification, technical writing
 \item Reproducible builds and deployments, observability and experimentation in production
-\end{itemize}
-
-\cut{}
-
-\textbf{Qualifications}
-\begin{itemize}[label=$\cdot$]
-% \item 19 years experience programming, 13 professionally
-\item Expertise with TypeScript, Node.js, UNIX, Docker, Bash, GNU Make, git, Lisp, \LaTeX{}
-\item Familiar with Rust, Kubernetes, AWS, Terraform, NoSQL, Go, C/C++, Python, Ruby, Haskell, TLA+, ACL2
-\item Looking forward to deeper mastery of Nix, WebAssembly
+\item Type theory, static analysis, functional programming, compilers, formal verification, technical writing
 \end{itemize}
 
 \cut{}
@@ -42,31 +33,36 @@
 \textbf{Recent Work Experience}
 \begin{itemize}[label=]
 
-\item \textbf{BitGo -- Engineering Manager, Internal Tools} (2021 - Today)
+\item \textbf{BitGo -- Engineering Manager, Velocity} (2021 - Today)
   \begin{itemize}[label=$\circ$]
-  \item Created microservices build system, scaling 30 engineers to 250, 5 services to 72, reducing build time 98.5\%
-  \item Created \href{https://github.com/BitGo/api-ts}{api-ts} for type- and runtime- safe APIs, reducing production issues by 97\% over 1 year
+  \item Led a team of 6 with the mission to maximize engineering velocity and minimize friction in feedback loops
+  % CI runtime decreased from 55m to 9m in the worst case, 4m in the average case
+  % MTTR decreased from 120m to 15m
+  \item Responsible for migrating engineering from a monorepo to team-owned repositories, creating build systems that reduced CI runtime 92\%, and reducing MTTR 87\%
+  \item Partnered with cross-funcional product managers, engineering teams, and technical writers to create an internal process for building APIs in TypeScript
+  \item Developed \href{https://github.com/BitGo/api-ts}{api-ts} for type- and runtime- safe APIs, reducing data-related production issues 97\% over 1 year
   \end{itemize}
 
 \item \textbf{BitGo -- Senior Software Engineer, Prime} (2020 - 2021)
   \begin{itemize}[label=$\circ$]
   \item Created risk-management engine for margin trading in Go, increasing trade volume 100x
   \item Integrated trade engine with 4 add'l liquidity providers, increasing limit order-book depth 68\% over 100 bps
-  \item Introduced functional programming in TypeScript (fp-ts), now used on 6 teams
+  \item Introduced functional programming in TypeScript, now used on 6 teams in 37 services
   \end{itemize}
 
-\item \textbf{Strong Roots Capital -- Chief Technology Officer, Founder} (2018 - Today)
+\item \textbf{Stratos Trade LLC -- Chief Technology Officer, Founder} (2018 - Today)
   \begin{itemize}[label=$\circ$]
-  \item Created platform for quantitative research and execution of systematic trading strategies
+  \item Created platform for quantitative research and automated execution of discretionary trading strategies
   \item Event-driven microservices on AWS using immutable infrastructure-as-code
   \item Functional programming in TypeScript/Rust backend, Python data science, Wasm in browser
   \end{itemize}
 
 \item \textbf{ShoreTel -- Embedded Software Engineer} (2016 - 2018)
   \begin{itemize}[label=$\circ$]
+  % CI runtime decreased from 6h (nightly builds from scratch) to 15m (continuous integration with incremental compilation)
+  \item Created on-premise GitLab \& CI cluster with ansible \& docker, reducing CI execution time 96\%
   \item Architected next-gen embedded C++ phone firmware, eliminating race conditions during boot
-  \item Created custom Linux distribution for in-house hardware with yocto, eliminating 1-day exploits
-  \item Created on-premise GitLab \& CI cluster with ansible \& docker, reducing CI execution time by 96\%
+  \item Created custom Linux distribution for in-house hardware with Yocto, eliminating 1-day exploits
   \end{itemize}
 
 \item \textbf{IBM -- Cloud Infrastructure Engineer} (2015 - 2016)
@@ -85,6 +81,15 @@
   \item Invariant-based verification of multi-core PSE-36/PAE caching over 3 major architecture releases in Ruby
   \end{itemize}
 
+\end{itemize}
+
+\cut{}
+
+\textbf{Qualifications}
+\begin{itemize}[label=$\cdot$]
+\item Expertise with TypeScript, Node.js, UNIX, Docker, Bash, GNU Make, git, \LaTeX{}
+\item Familiar with Rust, Nix, Kubernetes, AWS, NoSQL, Go, Python, Ruby
+\item Looking forward to deeper mastery of WebAssembly, TLA+
 \end{itemize}
 
 \cut{}
