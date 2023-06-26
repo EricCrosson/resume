@@ -14,6 +14,14 @@ nix build
 
 ## (Subset of) GitHub Projects
 
+### Developer Tools
+
+| Name           | Abstract                               | Version                                                                                                 | Stats                                                                                               | Status                                                                                                                                                                                       |
+| -------------- | -------------------------------------- | ------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [git-disjoint] | Group commits by issue onto GitHub PRs | [![cargo version](https://img.shields.io/crates/v/git-disjoint)](https://crates.io/crates/git-disjoint) | [![crates.io](https://img.shields.io/crates/d/git-disjoint)](https://crates.io/crates/git-disjoint) | [![Build Status](https://github.com/EricCrosson/git-disjoint/actions/workflows/release.yml/badge.svg?event=push)](https://github.com/EricCrosson/git-disjoint/actions/workflows/release.yml) |
+
+[git-disjoint]: https://github.com/EricCrosson/git-disjoint
+
 ### npm packages
 
 | npm package                             | Abstract                                    | Version                                                                                                                                                   | Stats                                                                                                                                                  | Status                                                                                                                                                                                 |
