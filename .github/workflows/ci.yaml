@@ -29,7 +29,7 @@ jobs:
         run: echo "UPLOAD_PATH=$(readlink -f result/Eric_Crosson_Resume.pdf)" >> "$GITHUB_ENV"
 
       - name: Upload Resume
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         if: github.ref == 'refs/heads/master'
         with:
           name: eric-crosson-resume
