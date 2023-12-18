@@ -48,7 +48,7 @@ jobs:
           ref: deliverables
 
       - name: Download Resume
-        uses: actions/download-artifact@v3
+        uses: actions/download-artifact@v4
         with:
           name: eric-crosson-resume
 
